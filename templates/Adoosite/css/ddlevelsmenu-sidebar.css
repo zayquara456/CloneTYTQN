@@ -1,0 +1,59 @@
+/* ######### Marker List Vertical Menu ######### */
+
+.markermenu{
+width: 206px; /*width of side bar menu*/
+clear: left;
+position: relative; /*Preserve this for "right" arrow images (added by script) to be positioned correctly*/
+
+}
+
+.markermenu ul{
+list-style-type: none;
+margin: 0px 0;
+padding: 0;
+border: 0px solid #9A9A9A;
+}
+
+.markermenu ul li a{
+background: #ffffff; /*light gray background*/
+font-family:Verdana, Geneva, sans-serif;
+font-size:11px;
+color: #0052af;
+display: block;
+width: auto;
+padding: 5px 0px 5px 10px;
+text-decoration: none;
+border-top: 0px solid #ffffff;
+border-bottom: 1px dotted #ababab;
+}
+
+* html .markermenu ul li a{ /*IE6 hack*/
+width: 196px;
+}
+
+.markermenu ul li a:visited, .markermenu ul li a:active{
+color: #252525;
+}
+
+.markermenu ul li a:hover, .markermenu ul li a.selected{
+color: #0052af;
+text-decoration: none;
+border-top: 0px solid #ffffff;
+border-bottom: 1px dotted #ababab;
+}
+
+/* ######### Customized Drop Down ULs CSS (inherits from ddlevelsmenu-base.css) ######### */
+
+.blackwhite li a{
+background: #1f8ad0;
+font-family:Arial, Helvetica, sans-serif;
+color:#ffffff;
+font-size:12px;
+text-decoration:none;
+}
+
+.blackwhite li a:hover{
+background: #187fc2;
+color: #fffff;
+text-decoration:none;
+}

@@ -1,0 +1,170 @@
+.header .name {
+    margin: 5px 0px 0px 128px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: -1px;
+}
+.header.dark .name {
+    color: #8A8A8A;
+}
+.header .logo img {
+    display: block;
+    width: 100%;
+    height: 90.97px;
+}
+.header .logo img.mobile {
+    display: none;
+    height: 51px;
+}
+.top-head .hotline {
+    font-size: 18px;
+    text-align: right;
+    padding-top: 14px;
+    clear: both;
+    position: relative;
+}
+.top-head .hotline .facebook {
+    float: left;
+    width: 21px;
+    height: 21px;
+    background-image: url("images/block-social.png");
+    text-indent: -9999px;
+    display: block;
+    margin: 7px 7px 0px 0px;
+    background-size: auto 21px;
+    background-color: #757575;
+    background-position: left center;
+    border-radius: 2px;
+}
+.top-head .hotline .facebook:hover {
+    background-color: #3b5998;
+}
+.top-head .hotline .cellphone {
+    font-size: 24px;
+    float: left;
+    position: relative;
+    display: block;
+    padding-left: 28px;
+    font-weight: 700;
+    color: #3F3F3F;
+}
+.top-head .hotline .cellphone:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    width: 21px;
+    height: 21px;
+    background-image: url("images/block-social.png");
+    background-repeat: no-repeat;
+    background-size: auto 21px;
+    background-color: #757575;
+    border-radius: 2px;
+    background-position: -84px 0;
+    display: block;
+    top: 7px;
+}
+
+#ft_hotline {
+    display:none;
+    background-color:#b30000;
+    height:40px;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    text-align:center;
+}
+.ft_hotline {
+    position:relative;
+    background-color:#b30000;
+    height:40px;
+    width:100%;
+}
+.ft_hotline a {
+    display:block;
+    position:relative;
+    line-height:40px;
+    color:#fff;
+    font-size:16px;
+    font-weight: bold;
+    text-decoration:none;
+    height:40px;
+    width:100%;
+    background-color:#b30000;
+}
+@-webkit-keyframes my {
+	 0% { color: #000000; } 
+	 50% { color: #fff;  } 
+	 100% { color: #000000;  } 
+ }
+ @-moz-keyframes my { 
+	 0% { color: #000000;  } 
+	 50% { color: #fff;  }
+	 100% { color: #000000;  } 
+ }
+ @-o-keyframes my { 
+	 0% { color: #000000; } 
+	 50% { color: #fff; } 
+	 100% { color: #000000;  } 
+ }
+ @keyframes my { 
+	 0% { color: #000000;  } 
+	 50% { color: #fff;  }
+	 100% { color: #000000;  } 
+ } 
+ .ft_hotline a {
+   font-weight:bold;
+	 -webkit-animation: my 3000ms infinite;
+	 -moz-animation: my 3000ms infinite; 
+	 -o-animation: my 3000ms infinite; 
+	 animation: my 3000ms infinite;
+}
+
+/*
+.table-spc {
+    width: 100%;
+    }
+ .table-spc td {
+    width: 155px;
+    height: 30px;
+    border-top: 1px dotted #cdc5c5;
+    border-right: 1px dotted #cdc5c5;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+}
+ .table-spc td.name {
+    width: 131px;
+    text-align: left;
+}
+ .table-spc td.code {
+    width: 109px;
+}
+ .table-spc td.units {
+    width: 74px;
+}
+ .table-spc td.last {
+    border-right: none;
+    width: 623px;
+    height: 100%}
+ .table-spc td.last-td {
+    border-right: none;
+}
+ .table-spc td.last table {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+ .table-spc td.last table tr td {
+    height: 40px;
+}
+ .table-spc td.last table td {
+    height: 100%;
+    border-top: none;
+    border-bottom: none;
+}
+ .table-spc tr.last td {
+    border-bottom: 1px dotted #cdc5c5;
+*/

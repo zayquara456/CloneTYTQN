@@ -1,0 +1,33 @@
+body, table, td, tr, p, div, th, span {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+body{
+	margin:0px;
+	padding:0px;
+	background:		#F4F5F7; /* for firefox 3.6+ */ ; }
+h1, h2, h3, h4, h5 {
+	font-weight:normal;
+	margin:5px 0 5px 0;
+}
+
+a { color: #000; text-decoration: none }
+a:hover { text-decoration: none; color: #7b0000 }
+a.strong { font-weight: normal}
+a.titleNew { color: #16387c; font-weight: 900 }
+.fl{float: left}
+.fr{float: right}
+.cl{clear: both}
+#maincontainer{
+	width: 987px;
+	margin: 0 auto;
+	background:none;
+	padding:26px 5px 0px 5px;
+}
+#topsection{background: none;position: relative; margin-bottom:6px}
+#contentwrapper{float: left; width: 100%;}
+#contentcolumn{float: left; padding:0px 8px 0px 0px; width:679px;}
+#leftcolumn{
+	float: left;
+	margin-right: 8px;
+}

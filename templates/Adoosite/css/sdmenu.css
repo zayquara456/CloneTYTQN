@@ -1,0 +1,65 @@
+div.sdmenu {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	padding-bottom: 30px;
+	background:no-repeat  right bottom;
+	color: #fff;
+}
+div.sdmenu div {
+	background: url(../images/title2.jpg) repeat-x;
+	overflow: hidden;
+	border-bottom:1px dotted #CCE6E6;
+}
+div.sdmenu div:first-child {
+	background: url(../images/toptitle.jpg) repeat-x;
+}
+div.sdmenu div.collapsed {
+	height: 25px;
+}
+div.sdmenu div span {
+	display: block;
+	padding: 5px 5px 5px 5px;
+	font-weight: bold;
+	color: #000;
+	background: url(../images/expanded.jpg) no-repeat 16.9em;
+	cursor:pointer;
+	border-bottom: 1px solid #ddd;
+}
+div.sdmenu div.collapsed span {
+	background: url("../images/collapsed.jpg") no-repeat 16.9em;
+}
+div.sdmenu div span a {
+	padding:0;
+	display: block;
+	color: #000;
+	background:none;
+	border-bottom:0;
+}
+div.sdmenu div span a.current {
+	color: #ff0000;
+	background:none;
+	padding:0;
+}
+div.sdmenu div span a:hover {
+	color: #0d5089;
+	text-decoration: none;
+	background:none;
+	padding:0;
+}
+
+div.sdmenu div a {
+	padding: 5px 10px;
+	background: #fff;
+	display: block;
+	border-bottom: 1px dotted #ddd;
+	color: #000;
+}
+div.sdmenu div a.current {
+	background : #ccc;
+	font-weight:bold;
+}
+div.sdmenu div a:hover {
+	background : #818286;
+	color: #fff;
+	text-decoration: none;
+}

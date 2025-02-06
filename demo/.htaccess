@@ -1,0 +1,49 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
+RewriteRule .* ? [F,L]
+##################################################
+# khac phuc loi ckfinder ko hoat dong khi su dung rewite
+RewriteRule ^editor/ckfinder/ckfinder.html$ editor/ckfinder/ckfinder.html [NC,L]
+
+##################################################
+#RewriteRule ^index.html$ index.php [NC,L]
+RewriteRule ^click/([0-9]*)/$ click.php?id=$1 [NC,L]
+RewriteRule ^download/([0-9]*)/$ download.php?id=$1 [NC,L]
+RewriteRule ^news.html$ index.php?f=news [NC,L]
+RewriteRule ^video/$ index.php?f=video [NC,L]
+RewriteRule ^video$ index.php?f=video [NC,L]
+RewriteRule ^picture.html$ index.php?f=picture [NC,L]
+RewriteRule ^contact/$ index.php?f=contact [NC,L]
+RewriteRule ^contact$ index.php?f=contact [NC,L]
+RewriteRule ^sitemap.html$ index.php?f=sitemap [NC,L]
+RewriteRule ^document/$ index.php?f=document [NC,L]
+RewriteRule ^document$ index.php?f=document [NC,L]
+RewriteRule ^question/$ index.php?f=question [NC,L]
+RewriteRule ^question$ index.php?f=question [NC,L]
+#url vehicle
+RewriteRule ^yaris/$ index.php?page=vehicle-yaris&post=1021 [NC,L]
+RewriteRule ^vios/$ index.php?page=vehicle-vios&post=1022 [NC,L]
+RewriteRule ^corolla-altis/$ index.php?page=vehicle-corolla-altis&post=1023 [NC,L]
+RewriteRule ^camry/$ index.php?page=vehicle-camry&post=1024 [NC,L]
+RewriteRule ^innova/$ index.php?page=vehicle-innova&post=1025 [NC,L]
+RewriteRule ^fortuner/$ index.php?page=vehicle-fortuner&post=1026 [NC,L]
+RewriteRule ^land-cruiser-prado/$ index.php?page=vehicle-land-cruiser-prado&post=1027 [NC,L]
+RewriteRule ^land-cruiser/$ index.php?page=vehicle-land-cruiser&post=1028 [NC,L]
+RewriteRule ^hilux/$ index.php?page=vehicle-hilux&post=1029 [NC,L]
+RewriteRule ^hiace/$ index.php?page=vehicle-hiace&post=1030 [NC,L]
+RewriteRule ^alphard/$ index.php?page=vehicle-alphard&post=1031 [NC,L]
+RewriteRule ^wego/$ index.php?page=vehicle-wego&post=1032 [NC,L]
+RewriteRule ^lien-he/$ index.php?page=lien-he [NC,L]
+RewriteRule ^du-toan-chi-phi/(.*)$ index.php?page=du-toan-chi-phi&vehicle=$1 [NC,L]
+#url new
+RewriteRule ^(.*)/(.*).html$ index.php?page=tinchitiet&c=$1&t=$2 [NC,L]
+RewriteRule ^(.*)/$ index.php?page=news&c=$1 [NC,L]
+RewriteRule ^(.*)/$ index.php?page=$1 [NC,L]

@@ -1,0 +1,25 @@
+.degree {font-size:25px;padding:0 5px;}
+p {line-height:16px;margin:0 0 8px;}
+.cont01 {height:1%;margin:0 0 0 5px;padding:0 0 5px;}
+.cont01im {float:left;width:51px;}
+.cont01desc {float:left;font-family:Tahoma;font-size:11px;width:96px;}
+.clear {clear:both;}
+h2{	color: #FFF;	font-size: 13px;	margin: 0;	padding: 0;	height: 24px;	line-height: 24px;}
+.colleft{	width: 189px;	float: left;	display: inline;}
+.colleft span{padding:0px;	background:transparent;color:#36808D;font-size:22px;font-family:arial;}
+.tbl01{	margin: 0 0 3px 0;}
+.tbl01 td, .tbl01 th{	padding: 3px;	border-bottom: 1px solid #FFF;}
+.tr01{	background: #f8f8f8;}
+.tr02{	background: #f8f8f8;}
+.tbl01 .hidden{	display: none;}
+.tr03{	background: #FFF;}
+.tr04{	border: solid 1px #FFF;	background: #f6fbfe;	padding: 3px 0px;height:20px;font-weight:bold;}
+.tr04 a {color:#BC4712;}
+.note01{	padding: 5px 5px 0 5px;	text-align: right;}
+.tabc1 a{	width: 94px;	text-align: center;}
+.tabc1 a.curnav{	padding: 0 3px 0 2px;}
+.tabc2 a{	width: 160px;	text-align: center;}
+.tabc2 a.curnav{	padding: 0 2px 0 1px;}
+.tabcenter .lastitem{	padding-right: 2px;	margin: 0;}
+.sltbox01{	margin: 2px 0 9px 2px;	width: 146px;	font-family: Tahoma;	font-size: 11px;	text-transform: uppercase;	font-weight: bold;}
+.degree{	font-size: 25px;	padding: 0 5px;}

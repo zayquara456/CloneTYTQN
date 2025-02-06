@@ -1,0 +1,88 @@
+body {
+	background-color: #F0F0F0 ;
+	margin: 0 0 0 0;
+}
+
+td, div, th, input, select, option {
+font-size: 11px;
+color: #1A1A1A; 
+font-family: Verdana, Tahoma, Arial;
+}
+.sdmenu {
+    width: 100%;
+    font-family: Arial;
+    font-size: 12px;
+    padding-bottom: 10px;
+    background: #F0F0F0;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.sd_menu {
+    font-family: Arial;
+    font-size: 12px;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: #000;
+    background: #CCC;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #666;
+}
+
+.sdmenu .title, .sdmenu .titlehidden{
+    display: block;
+    padding: 5px 0;
+    font-weight: bold;
+    color: #000;
+    background: #CCC;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #666;
+}
+
+.catmenu, a:link.catmenu, a:active.catmenu, a:visited.catmenu {
+	font-size: 12px; color: #000; font-family: Arial; font-weight: bold; text-decoration: none
+}
+
+.catmenu1, a:link.catmenu1, a:active.catmenu1, a:visited.catmenu1 {
+	font-size: 10px; color: #000; font-family: Tahoma; font-weight: bold; text-decoration: none;
+}
+
+a:hover.catmenu1 {color: #FF0000}
+
+.sdmenu .title {
+    border-bottom: 1px solid #666;
+}
+
+.sdmenu .arrow {
+		margin-left: 10px;
+    	margin-right: 7px;
+}
+
+.sdmenu .titlehidden {
+    border-bottom: 1px solid #666;
+}
+
+.sdmenu #top {
+}
+
+.sdmenu .submenu {
+    overflow: hidden;
+}
+
+.sdmenu .submenu a {
+    padding: 5px 0;
+    text-indent: 10px;
+    background: #F0F0F0;
+    display: block;
+    border-bottom: 1px solid #CCC;
+    border-top: 1px solid #FFF;
+    color: #444;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    background : #FFF url(linkarrow.gif) no-repeat right center;
+    color: #000;
+}
+
+

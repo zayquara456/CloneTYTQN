@@ -1,0 +1,32 @@
+<Files ".htaccess">
+deny from all
+</Files>
+<IfModule mod_security.c>
+SecFilterEngine Off
+SecFilterScanPOST Off
+</IfModule>
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^home$ index.php   [NC,L]
+RewriteRule ^click,([0-9]*).html$ click.php?id=$1 [NC,L]
+RewriteRule ^([a-zA-Z0-9_]*).html$ index.php?f=$1 [NC,L]
+RewriteRule ^(.*)-picture-(.*)-(.*)$ index.php?f=picture&do=$2&id=$3&t=$1 [NC,L]
+RewriteRule ^(.*)-news-(.*)-(.*)-(.*).html$ index.php?f=news&do=$2&id=$3&t=$1&page=$4 [NC,L]
+RewriteRule ^(.*)-news-(.*)-(.*)$ index.php?f=news&do=$2&id=$3&t=$1 [NC,L]
+RewriteRule ^(.*)-news-(.*)$ index.php?f=news&do=$2&id=$3 [NC,L]
+RewriteRule ^(.*)-products-(.*)-(.*)$ index.php?f=products&do=$2&id=$3&t=$1 [NC,L]
+RewriteRule ^(.*)-products-(.*)$ index.php?f=products&do=$1&id=$2 [NC,L]
+RewriteRule ^lang-(.*)$ index.php?lang=$1 [NC,L]
+RewriteRule ^search-news$ search.php?f=news [NC,L]
+RewriteRule ^viewpic$ viewpic.php [NC,L]
+RewriteRule ^search_result$ search_result.php [NC,L]
+RewriteRule ^search_all$ search_all.php [NC,L]
+
+#question
+RewriteRule ^(.*)-question-detail-(.*).html$ index.php?f=question&do=detail&id=$2&t=$1 [NC,L]
+RewriteRule ^(.*)-question-categories-(.*).html$ index.php?f=question&do=categories&id=$2&t=$1 [NC,L]
+RewriteRule ^question-categories-(.*)-(.*).html$ index.php?f=question&do=categories&id=$1&page=$2 [NC,L]
+RewriteRule ^question-(.*)-(.*).html$ index.php?f=news&do=$1&id=$2 [NC,L]

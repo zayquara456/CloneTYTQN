@@ -1,0 +1,110 @@
+RewriteEngine on
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
+RewriteRule .* ? [F,L]
+##################################################
+# khac phuc loi ckfinder ko hoat dong khi su dung rewite
+RewriteRule ^editor/ckfinder/ckfinder.html$ editor/ckfinder/ckfinder.html [NC,L]
+
+##################################################
+#RewriteRule ^index.html$ index.php [NC,L]
+RewriteRule ^click/([0-9]*)/$ click.php?id=$1 [NC,L]
+RewriteRule ^download/([0-9]*)/$ download.php?id=$1 [NC,L]
+RewriteRule ^news.html$ index.php?f=news [NC,L]
+RewriteRule ^video/$ index.php?f=video [NC,L]
+RewriteRule ^video$ index.php?f=video [NC,L]
+RewriteRule ^picture.html$ index.php?f=picture [NC,L]
+RewriteRule ^contact/$ index.php?f=contact [NC,L]
+RewriteRule ^contact$ index.php?f=contact [NC,L]
+RewriteRule ^sitemap.html$ index.php?f=sitemap [NC,L]
+RewriteRule ^document/$ index.php?f=document [NC,L]
+RewriteRule ^document$ index.php?f=document [NC,L]
+RewriteRule ^question/$ index.php?f=question [NC,L]
+RewriteRule ^question$ index.php?f=question [NC,L]
+#url vehicle
+RewriteRule ^yaris/$ index.php?page=vehicle-yaris&post=1021 [NC,L]
+RewriteRule ^vios/$ index.php?page=vehicle-vios&post=1022 [NC,L]
+RewriteRule ^corolla-altis/$ index.php?page=vehicle-corolla-altis&post=1023 [NC,L]
+RewriteRule ^camry/$ index.php?page=vehicle-camry&post=1024 [NC,L]
+RewriteRule ^innova/$ index.php?page=vehicle-innova&post=1025 [NC,L]
+RewriteRule ^fortuner/$ index.php?page=vehicle-fortuner&post=1026 [NC,L]
+RewriteRule ^land-cruiser-prado/$ index.php?page=vehicle-land-cruiser-prado&post=1027 [NC,L]
+RewriteRule ^land-cruiser/$ index.php?page=vehicle-land-cruiser&post=1028 [NC,L]
+RewriteRule ^hilux/$ index.php?page=vehicle-hilux&post=1029 [NC,L]
+RewriteRule ^hiace/$ index.php?page=vehicle-hiace&post=1030 [NC,L]
+RewriteRule ^alphard/$ index.php?page=vehicle-alphard&post=1031 [NC,L]
+RewriteRule ^wigo/$ index.php?page=vehicle-wigo&post=1032 [NC,L]
+RewriteRule ^cross/$ index.php?page=vehicle-cross&post=1033 [NC,L]
+RewriteRule ^raize/$ index.php?page=vehicle-raize&post=1034 [NC,L]
+RewriteRule ^veloz/$ index.php?page=vehicle-veloz&post=1035 [NC,L]
+RewriteRule ^avanza/$ index.php?page=vehicle-avanza&post=1036 [NC,L]
+RewriteRule ^yaris_cross/$ index.php?page=vehicle-yaris_cross&post=1037 [NC,L]
+
+RewriteRule ^lien-he/$ index.php?page=lien-he [NC,L]
+RewriteRule ^du-toan-chi-phi/(.*)$ index.php?page=du-toan-chi-phi&vehicle=$1 [NC,L]
+#url new
+RewriteRule ^(.*)/(.*).html$ index.php?page=news_detail&c=$1&t=$2 [NC,L]
+RewriteRule ^news/(.*)/$ index.php?page=news&c=$1 [NC,L]
+RewriteRule ^news/(.*)/(.*)/$ index.php?page=news&c=$1&p=$2 [NC,L]
+RewriteRule ^(.*)/$ index.php?page=$1 [NC,L]
+RewriteRule ^news/$ index.php?page=news [NC,L]
+
+
+###Start Kloxo PHP config Area
+###Please Don't edit these comments or the content in between. kloxo uses this to recognize the lines it writes to the the file. If the above line is corrupted, it may fail to recognize them, leading to multiple lines.
+
+<Ifmodule mod_php4.c>
+	php_value error_log "/home/toyota.quangninh.vn/__processed_stats/toyota.quangninh.vn.phplog"
+	php_value upload_max_filesize 2M
+	php_value max_execution_time  30
+	php_value max_input_time  60
+	php_value memory_limit  32M
+	php_value post_max_size  8M
+	php_flag register_globals  off
+	php_flag display_errors  off
+	php_flag file_uploads  on
+	php_flag log_errors  off
+	php_flag output_buffering  off
+	php_flag register_argc_argv  on
+	php_flag magic_quotes_gpc   off
+	php_flag magic_quotes_runtime  off
+	php_flag magic_quotes_sybase  off
+	php_flag mysql.allow_persistent  off
+	php_flag register_long_arrays  on
+	php_flag allow_url_fopen  on
+	php_flag cgi.force_redirect  on
+	php_flag enable_dl  on
+</Ifmodule>
+
+<Ifmodule mod_php5.c>
+	php_value error_log "/home/toyota.quangninh.vn/__processed_stats/toyota.quangninh.vn.phplog"
+	php_value upload_max_filesize 2M
+	php_value max_execution_time  30
+	php_value max_input_time  60
+	php_value memory_limit  32M
+	php_value post_max_size  8M
+	php_flag register_globals  off
+	php_flag display_errors  off
+	php_flag file_uploads  on
+	php_flag log_errors  off
+	php_flag output_buffering  off
+	php_flag register_argc_argv  on
+	php_flag magic_quotes_gpc   off
+	php_flag magic_quotes_runtime  off
+	php_flag magic_quotes_sybase  off
+	php_flag mysql.allow_persistent  off
+	php_flag register_long_arrays  on
+	php_flag allow_url_fopen  on
+	php_flag cgi.force_redirect  on
+	php_flag enable_dl  on
+</Ifmodule>
+
+###End Kloxo PHP config Area
+
