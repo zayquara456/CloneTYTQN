@@ -94,15 +94,15 @@
     
     <div class="social-button">
         <div class="social-button-content">
-            <a href="tel:0843166116" class="call-icon" rel="nofollow">
+            <a href="tel:0971542222" class="call-icon" rel="nofollow">
                 <i class="fa-brands fa-whatsapp"></i>
                 <div class="animated alo-circle"></div>
                 <div class="animated alo-circle-fill  "></div>
-                <span>Hotline: 0843.166.116</span>
+                <span>Hotline: <?php echo $hotline ?></span>
             </a>
-            <a href="sms:0843166116" class="sms">
+            <a href="sms:0971542222" class="sms">
                 <i class="fa-brands fa-weixin"></i>
-                <span>SMS: 0843.166.116</span>
+                <span>SMS: <?php echo $hotline ?></span>
             </a>
             <!-- <a href="https://www.facebook.com/ToyotaVietNamQuangNinh/" class="mes">
                 <i class="fa fa-facebook-square" aria-hidden="true"></i>

@@ -138,17 +138,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="container clearfix">
 				<div class="logo">
 				<a href="/">
-					<img class="desktop" src="./images/logo1.png" alt="<? echo $author?>">
-				<img class="mobile" src="./images/logo-mobile.png" alt="<? echo $author?>">
+					<img class="desktop" src="/images/logo1.png" alt="<? echo $author?>">
+				<img class="mobile" src="/images/logo-mobile.png" alt="<? echo $author?>">
 				</a>
 			</div>
 
 			<div class="name"><?php echo $title;?></div>
 			<div class="top-head clearfix">
-				<form role="search" method="get" class="search-form fr clearfix" action="<? echo $urlsite?>">
-			        <input type="text" placeholder="Tìm kiếm" name="s" id="s" class="search-key" value="" />
-			        <input type="submit" class="search-submit" value="" />
-				</form>
+			<input type="text" id="searchInput" placeholder="Nhập nội dung tìm kiếm...">
+			<button  class="search-submit" id="searchButton">Tìm kiếm</button>
+
+<script>
+  document.getElementById('searchButton').addEventListener('click', function() {
+    var noiDungTimKiem = document.getElementById('searchInput').value;
+    var urlTimKiemGoogle = "https://www.google.com/search?q=site%3A+vinfastquangninh.com.vn+" + noiDungTimKiem;
+    window.location.href = urlTimKiemGoogle;
+  });
+</script>
 				<p class="hotline clearfix">
 					<a class="facebook" href="https://www.facebook.com/yentoyotaquangninh" target="blank"></a>
 					<a class="cellphone" href="tel:<?php echo $hotline?>"><?php echo $hotline?></a>

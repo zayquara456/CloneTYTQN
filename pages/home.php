@@ -61,7 +61,7 @@
 			<li style="background-image:url(<?php echo $urlsite?>/images/slide/khuyenmaithang112019.png?v=29102016);">
 				<div class="container"><a class="button" href="http://toyota.quangninh.vn/bang-gia-xe/" target="blank" style="left:80%; top:77%;" >TÌM HIỂU THÊM</a></div></li>
 				<li style="background-image:url(<?php echo $urlsite?>/images/slide/BN_DEALER-WEBSITE_7.9.jpg);"><div class="container"><a class="button" href="http://facebook.com/toyotaquangninhdaily" target="blank" style="left:75%; top:85%;" >TÌM HIỂU THÊM</a></div></li>
-		<!--<li style="background-image:url(<?php echo $urlsite?>/images/slide/innova_slide.jpg?v=29102016);">
+		<li style="background-image:url(<?php echo $urlsite?>/images/slide/innova_slide.jpg?v=29102016);">
 				<div class="container"><a class="button" href="http://toyota.quangninh.vn/innova/" target="blank" style="left:9%; top:77%;" >TÌM HIỂU THÊM</a></div></li>
 				<li style="background-image:url(<?php echo $urlsite?>/images/slide/vios_slide.jpg?v=29102016);">
 				<div class="container"><a class="button" href="http://toyota.quangninh.vn/vios/" target="blank" style="left:9%; top:77%;" >TÌM HIỂU THÊM</a></div></li>
@@ -133,11 +133,11 @@ $a=0;
 			</div>
 			<div class="column feeds">
 				<div class="item facebook">
-					<a class="favicon" target="blank" href="https://www.facebook.com/PhongToyotaQuangNinh" title="Toyota Vietnam on Facebook">Facebook</a>
-					<h3><a href="https://www.facebook.com/PhongToyotaQuangNinh" target="blank">Vinfast Bãi Cháy's fanpage</a></h3>
+					<a class="favicon" target="blank" href="https://www.facebook.com/yentoyotaquangninh" title="Toyota Vietnam on Facebook">Facebook</a>
+					<h3><a href="https://www.facebook.com/yentoyotaquangninh" target="blank">Vinfast Bãi Cháy's fanpage</a></h3>
 					<p>Facebook chính thức của Vinfast Bãi Cháy. Dành cho mọi người yêu và quan tâm đến xe hơi và thương hiệu Vinfast.</p>
 					<div class="plugin">
-						<div class="fb-like" data-href="https://www.facebook.com/PhongToyotaQuangNinh" data-width="100%" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+						<div class="fb-like" data-href="https://www.facebook.com/yentoyotaquangninh" data-width="100%" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
 					</div>
 				</div>
 				<div class="item youtube">
@@ -150,9 +150,9 @@ $a=0;
 					</div>
 				</div>
 				<div class="item twitter">
-					<a class="favicon" target="blank" href="http://twitter.com/toyotavietnam" title="Toyota Vietnam on Twitter">Twitter</a>
-					<h3><a href="http://twitter.com/toyotavietnam" target="blank">@toyotavietnam</a></h3>
-					<p>Theo dõi Vinfast Bãi Cháy trên Twitter.</p>
+					<a class="favicon" target="blank" href="https://x.com/VinFastofficial/" title="Toyota Vietnam on Twitter">Twitter</a>
+					<h3><a href="https://x.com/VinFastofficial/" target="blank">@VinFastofficial/</a></h3>
+					<p>Theo dõi Vinfast trên Twitter.</p>
 					<div class="plugin">
 						<a class="twitter-follow-button" href="http://twitter.com/toyotavietnam" data-show-count="false" data-show-screen-name="false" data-lang="en"></a>
 						<script>window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));</script>
