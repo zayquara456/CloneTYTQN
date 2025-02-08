@@ -138,8 +138,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="container clearfix">
 				<div class="logo">
 				<a href="/">
-					<img class="desktop" src="/images/logo1.png" alt="<? echo $author?>">
-				<img class="mobile" src="/images/logo-mobile.png" alt="<? echo $author?>">
+					<img class="desktop" src="./images/logo1.png" alt="<? echo $author?>">
+				<img class="mobile" src="./images/logo-mobile.png" alt="<? echo $author?>">
 				</a>
 			</div>
 
@@ -150,7 +150,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			        <input type="submit" class="search-submit" value="" />
 				</form>
 				<p class="hotline clearfix">
-					<a class="facebook" href="https://www.facebook.com/PhongToyotaQuangNinh" target="blank"></a>
+					<a class="facebook" href="https://www.facebook.com/yentoyotaquangninh" target="blank"></a>
 					<a class="cellphone" href="tel:<?php echo $hotline?>"><?php echo $hotline?></a>
 				</p>
 				<a id="menu_toggler" class="menu-toggler icon" href="#">

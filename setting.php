@@ -2,13 +2,13 @@
 $page = $_GET['page'] ? $_GET['page'] : $_POST['page'];
 $author = 'Vinfast Bãi Cháy';
 $title 	= 'Vinfast Bãi Cháy';
-$company = 'CÔNG TY TNHH MTV TOYOTA QUẢNG NINH';
-$address = 'Tổ 94 - Khu Đồn Điền - Phường Hà Khẩu - TP. Hạ Long - Quảng Ninh';
-$hotline = '0843.166.116';
+$company = 'VINFAST BÃI CHÁY';
+$address = 'Ô số 83 Đông Ga,Phường Giếng Đáy,Hạ Long,Quảng Ninh, Ha Long, Vietnam';
+$hotline = '097.154.2222';
 $email = 'khangpradoluxury@gmail.com';
 $urlsite = "";
 $website = '';
-$home_description ='Trang chủ chính thức của Toyota Quảng Ninh.';
+$home_description ='Trang chủ chính thức của Vinfast Bãi Cháy.';
 date_default_timezone_set('asia/ho_chi_minh');
 //cau hinh website
 $google_verification = "qKLRTANXDHakEmR0H7RxSoxNU7WOiYbUTFC-ibUTyQ4";
@@ -37,9 +37,9 @@ $vehicle_price_list='<div class="vehicle-call-to-action pricing">
 			<a download href="'.$urlsite.'/document/bang-gia-xe-toyota.pdf"><small>Tải về </small> Bảng giá</a>
 
 		</div>';
-$title_tag 	= 'TOYOTA QUẢNG NINH - BẢNG GIÁ, KHUYẾN MẠI 2025 TOYOTA VIỆT NAM';
-$description_tag = 'Toyota Quảng Ninh là Đại lý của Toyota Việt Nam Chuyên cung cấp dòng xe Toyota Vios, Veloz, Cross, Raize, Camry, Fortuner dai ly toyota, gia xe toyota quang ninh.';
-$keyword_tag = 'Toyota quảng ninh, toyota vios, toyota innova, toyota quang ninh, dai ly toyota quang ninh, dai ly toyota, giá xe toyota vios';
+$title_tag 	= 'VINFAST BÃI CHÁY - BẢNG GIÁ, KHUYẾN MẠI 2025 VINFAST VIỆT NAM';
+$description_tag = 'VinFast Quảng Ninh - Showroom VinFast Bãi Cháy là Showroom VinFast chính hãng tại Quảng Ninh. Vinfast Hạ Long là Showroom chuẩn 3S với dịch vụ sau bán hàng';
+$keyword_tag = 'vinfast bãi cháy, VF3, VF2, vinfast quang ninh, dai ly vinfast quang ninh, dai ly vinfast, giá xe vinfast';
 // meta data news
 $news_title = '';
 $news_keyword = '';
