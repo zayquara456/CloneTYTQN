@@ -3,59 +3,26 @@
 		<ul class="slides">
 
         <li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
-		    <div><a href="https://toyota.quangninh.vn/"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/slide campain 1.25.jpg"/></a></div>
+		    <div><a href="#"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/slide campain 1.25.jpg"/></a></div>
 		</li>
 		
         <li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
-		    <div><a href="https://toyota.quangninh.vn/innova/"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/homepage_banner-desktop-1600x680px-1.png"/></a></div>
+		    <div><a href="#"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/vf3banner.jpg"/></a></div>
 		</li>
 		
 		<li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
-		    <div><a href="https://toyota.quangninh.vn/tin-tuc-su-kien/yaris-cross-2023-nhan-at-cac-giao-xe-sam.html"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/desktop_hero-banner-1600x680.jpg"/></a></div>
+		    <div><a href="#"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/vf5banner.jpg"/></a></div>
 		</li>
 		
 		
         <li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
-		    <div><a href="https://toyota.quangninh.vn/wigo/"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/baner fortuner 24.png"/></a></div>
+		    <div><a href="#"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/vf7banner.jpg"/></a></div>
 		</li>
         
         
      	<li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
-			<div><a href="http://toyota.quangninh.vn/tuyen-dung/toyota-sure-xe-c-a-qua-sa-dang.html"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/xecu.jpg"/></a></div>
+			<div><a href="#"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/vf9banner.jpg"/></a></div>
 		</li>
-	    
-        
-		
-		<!--
-			<li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
-			<div><a href="http://toyota.quangninh.vn/corolla-altis/"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/bìa altis 22.jpeg"/></a></div>
-		</li>
-        -->
-			
-
-		
-		
-		
-		<!--
-		<li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
-			<div><a href="http://toyota.quangninh.vn"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/innovathang12.jpg"/></a></div>
-		</li>
-
-		
-		<li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">
-			<div><a href="http://toyota.quangninh.vn/innova/"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/img_slide_03.jpg"/></a></div>
-		</li>
-	-->
-
-		<!--<li>
-			<div><a href="#"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/kmt22020.jpg.jpg"/></a></div>
-		</li>
-		<li>
-			<div><a href="#"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/khuyenmaithang112019.png"/></a></div>
-		</li>
-		<li>
-			<div><a href="#"><img class="owl-lazy" src="<?php echo $urlsite?>/images/slide/BN_DEALER-WEBSITE_7.9.jpg"/></a></div>
-		</li>-->
 		<!--<li style="background-image:url(<?php echo $urlsite?>/images/slide/khuyen_mai_112019.jpg);">
 				<div class="container"><a class="button" href="#" target="blank" style="left:80%; top:77%;" >TÌM HIỂU THÊM</a></div></li>
 			<li style="background-image:url(<?php echo $urlsite?>/images/slide/khuyenmaithang112019.png?v=29102016);">
