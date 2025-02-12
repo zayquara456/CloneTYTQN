@@ -46,7 +46,7 @@ RewriteRule ^raize/$ index.php?page=vehicle-raize&post=1034 [NC,L]
 RewriteRule ^veloz/$ index.php?page=vehicle-veloz&post=1035 [NC,L]
 RewriteRule ^avanza/$ index.php?page=vehicle-avanza&post=1036 [NC,L]
 RewriteRule ^yaris_cross/$ index.php?page=vehicle-yaris_cross&post=1037 [NC,L]
-RewriteRule ^vf3/$ index.php?page=vehicle-vf3&post=1038 [NC,L]
+RewriteRule ^vf3/$ index.php?page=vehicle-vf3&post=1020 [NC,L]
 
 RewriteRule ^lien-he/$ index.php?page=lien-he [NC,L]
 RewriteRule ^du-toan-chi-phi/(.*)$ index.php?page=du-toan-chi-phi&vehicle=$1 [NC,L]

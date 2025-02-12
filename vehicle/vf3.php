@@ -12,12 +12,13 @@
 			<span>Giữ chuột để xoay</span>
 		</div>
 		<ul id="vehicle_color_list" class="color-list">
-			<li><img src="<?php echo $urlsite?>/images/product/wigo/360/R79.png" post="<?php echo $post;?>" color="1"><span>Summer Yellow</span></a></li>
-			<li><img src="<?php echo $urlsite?>/images/product/wigo/360/R80.png" post="<?php echo $post;?>" color="2"><span>Rose Pink</span></a></li>
-			<li><img src="<?php echo $urlsite?>/images/product/wigo/360/S28.png" post="<?php echo $post;?>" color="3"><span>Zenith Grey</span></a></li>
-			<li><img src="<?php echo $urlsite?>/images/product/wigo/360/W09.png" post="<?php echo $post;?>" color="4"><span>Crimson Red</span></a></li>
-			<li><img src="<?php echo $urlsite?>/images/product/wigo/360/S28.png" post="<?php echo $post;?>" color="5"><span>Sky Blue</span></a></li>
-			<li><img src="<?php echo $urlsite?>/images/product/wigo/360/W09.png" post="<?php echo $post;?>" color="6"><span>Urban Mint</span></a></li>
+			<li><img src="<?php echo $urlsite?>/images/product/vf3/360/R79.png" post="<?php echo $post;?>" color="1"><span>Summer Yellow</span></a></li>
+			<li><img src="<?php echo $urlsite?>/images/product/vf3/360/R80.png" post="<?php echo $post;?>" color="2"><span>Rose Pink</span></a></li>
+			<li><img src="<?php echo $urlsite?>/images/product/vf3/360/S28.png" post="<?php echo $post;?>" color="3"><span>Zenith Grey</span></a></li>
+			<li><img src="<?php echo $urlsite?>/images/product/vf3/360/W09.png" post="<?php echo $post;?>" color="4"><span>Crimson Red</span></a></li>
+			<li><img src="<?php echo $urlsite?>/images/product/vf3/360/1G3.png" post="<?php echo $post;?>" color="5"><span>Sky Blue</span></a></li>
+			<li><img src="<?php echo $urlsite?>/images/product/vf3/360/6W2.png" post="<?php echo $post;?>" color="6"><span>Urban Mint</span></a></li>
+			<li><img src="<?php echo $urlsite?>/images/product/vf3/360/218.png" post="<?php echo $post;?>" color="7"><span>Infinity Blanc</span></a></li>
 			
 		</ul>
 		<div class="image-note">

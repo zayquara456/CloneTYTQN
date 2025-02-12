@@ -164,8 +164,8 @@ jQuery(document).ready(function($) {
         var color360loader = $("#vehicle_color_360_loader");
 
         $(color360viewer).spritespin({
-            width: 980,
-            height: 430,
+            width: 880,
+            height: 494,
             animate: false,
             renderer: 'image'
         });

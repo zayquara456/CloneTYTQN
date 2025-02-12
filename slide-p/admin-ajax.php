@@ -568,6 +568,49 @@ elseif($action=="vehicle_color_select" && $post==1032 && $color==7)
   $link='http:\/\/toyota.quangninh.vn\/images\/product\/wigo\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
+//vf3 color
+if($action=="vehicle_color_select" && $post==1020 && $color==1)//1 thứ tự đầu tiên  //post là mã trùng với với .haccess 1032 của wigo
+{
+  $vcolor='R79'; //'W09 là mãu màu sếp vị trí đầu tiên trong file vf3.php cũng phải đầu tiên'
+  $link='/images\/product\/vf3\/360\/';
+  vehicle_color_select($link,$vcolor,2);
+}
+elseif($action=="vehicle_color_select" && $post==1020 && $color==2)
+{
+  $vcolor='R80';
+  $link='/images\/product\/vf3\/360\/';
+   vehicle_color_select($link,$vcolor,1);
+}
+elseif($action=="vehicle_color_select" && $post==1020 && $color==3)
+{
+  $vcolor='S28';
+  $link='/images\/product\/vf3\/360\/';
+   vehicle_color_select($link,$vcolor,1);
+}
+elseif($action=="vehicle_color_select" && $post==1020 && $color==4)
+{
+  $vcolor='W09';
+  $link='/images\/product\/vf3\/360\/';
+   vehicle_color_select($link,$vcolor,1);
+}
+elseif($action=="vehicle_color_select" && $post==1020 && $color==5)
+{
+  $vcolor='1G3';
+  $link='/images\/product\/vf3\/360\/';
+   vehicle_color_select($link,$vcolor,1);
+}
+elseif($action=="vehicle_color_select" && $post==1020 && $color==7)
+{
+  $vcolor='218';
+  $link='/images\/product\/vf3\/360\/';
+   vehicle_color_select($link,$vcolor,1);
+}
+elseif($action=="vehicle_color_select" && $post==1020 && $color==6)
+{
+  $vcolor='6W2';
+  $link='/images\/product\/vf3\/360\/';
+   vehicle_color_select($link,$vcolor,1);
+}
 //cross color
 if($action=="vehicle_color_select" && $post==1033 && $color==1)//1 thứ tự đầu tiên  //post là mã trùng với với .haccess 1032 của wigo
 {
