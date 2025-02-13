@@ -95,7 +95,7 @@ $a=0;
 		<div class="container clearfix">
 			<div class="column video">
 				<div class="video-wrapper">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/SsKIHKKm8fw?si=NCZc9gxcC1jjRf99" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/62hV_zKqjp4?si=U_uL0DTfKLdEZw6d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div class="column feeds">
@@ -121,7 +121,7 @@ $a=0;
 					<h3><a href="https://x.com/VinFastofficial/" target="blank">@VinFastofficial/</a></h3>
 					<p>Theo dõi Vinfast trên Twitter.</p>
 					<div class="plugin">
-						<a class="twitter-follow-button" href="http://twitter.com/toyotavietnam" data-show-count="false" data-show-screen-name="false" data-lang="en"></a>
+						<a class="twitter-follow-button" href="http://twitter.com/VinFastofficial" data-show-count="false" data-show-screen-name="false" data-lang="en"></a>
 						<script>window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));</script>
 					</div>
 				</div>
