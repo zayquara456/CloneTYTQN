@@ -170,12 +170,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<li class="menu-item-has-children no-position">
 					<a href="javascript:void(0)">Sản phẩm</a>
 					<ul class="sub-menu all-vehicles-menu clearfix">
-			<li><a href="<?php echo $urlsite?>/vf3/"><h3>VF3</h3><span><?php echo number_format($cars[32][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/wigo360x240.png"><div class="highlight"></div></a></li>
-			<li><a href="<?php echo $urlsite?>/avanza/"><h3>VF5</h3><span><?php echo number_format($cars[45][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/avanza360x240.png"><div class="highlight"></div></a></li>
-            <li><a href="<?php echo $urlsite?>/veloz/"><h3>VF6</h3><span><?php echo number_format($cars[43][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/veloz360x240.png"><div class="highlight"></div></a></li>
-            <li><a href="<?php echo $urlsite?>/vios/"><h3>VF7</h3><span><?php echo number_format($cars[5][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vios360x240.png"><div class="highlight"></div></a></li>            
-            <li><a href="<?php echo $urlsite?>/raize/"><h3>VF8</h3><span><?php echo number_format($cars[40][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/raize360x240.png"><div class="highlight"></div></a></li>
-			<li><a href="<?php echo $urlsite?>/yaris/"><h3>VF9</h3><span><?php echo number_format($cars[0][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/yaris360x240.png"><div class="highlight"></div></a></li>
+			<li><a href="<?php echo $urlsite?>/vf3/"><h3>VF3</h3><span><?php echo number_format($cars[32][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf3360x240.png"><div class="highlight"></div></a></li>
+			<li><a href="<?php echo $urlsite?>/avanza/"><h3>VF5</h3><span><?php echo number_format($cars[45][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf5360x240.png"><div class="highlight"></div></a></li>
+            <li><a href="<?php echo $urlsite?>/veloz/"><h3>VF6</h3><span><?php echo number_format($cars[43][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf6360x240.png"><div class="highlight"></div></a></li>
+            <li><a href="<?php echo $urlsite?>/vios/"><h3>VF7</h3><span><?php echo number_format($cars[5][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf7360x240.png"><div class="highlight"></div></a></li>            
+            <li><a href="<?php echo $urlsite?>/raize/"><h3>VF8</h3><span><?php echo number_format($cars[40][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf8360x240.png"><div class="highlight"></div></a></li>
+			<li><a href="<?php echo $urlsite?>/yaris/"><h3>VF9</h3><span><?php echo number_format($cars[0][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf9360x240.png"><div class="highlight"></div></a></li>
 		    	</ul>
 		</li>
 	<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25"><a href="#">Mua xe</a>
