@@ -1252,7 +1252,7 @@ body.overflow-hidden {
     font-size: 12px;
 }
 .vehicle-version .item .point p:before {
-    content: "â– ";
+    content: "✔";
     padding-right: 5px;
     position: relative;
     top: -1px;

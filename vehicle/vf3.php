@@ -67,14 +67,14 @@
 		<div class="vehicle-version clearfix">		
 			<ul class="slides">					
 				<li class="item">
-					<h3 class="name">Wigo 1.2AT</h3>
+					<h3 class="name"><?php echo $cars[33][3]?></h3>
 					<p class="price clearfix"><?php echo number_format($cars[33][6])?> VNĐ<small>Giá Đã bao gồm 10% VAT</small></p>
-					<div class="point"><img width="360" height="240" src="<?php echo $urlsite?>/images/product/price/gia_xe_wigo.png" alt="Wigo 1.2AT"><p>5 cửa, 5 chỗ ngồi, ghế nỉ cao cấp</p><p>Số tự động 4 cấp</p><p>Động cơ xăng dung tích 1.2L</p></div>
+					<div class="point"><img width="360" height="240" src="<?php echo $urlsite?>/images/product/price/gia_xe_vf3.png" alt="<?php echo $cars[33][3]?>"><p>3 cửa, 4 chỗ ngồi, ghế nỉ cao cấp</p><p>Động cơ 01 Motor</p><p>Công suất tối đa 30kW</p><p>Mô men xoắn cực đại 110Nm</p></div>
 				</li>
 				<li class="item">
-					<h3 class="name">Wigo 1.2MT</h3>
+					<h3 class="name"><?php echo $cars[32][3]?></h3>
 					<p class="price clearfix"><?php echo number_format($cars[32][6])?> VNĐ<small>Giá Đã bao gồm 10% VAT</small></p>
-					<div class="point"><img width="360" height="240" src="<?php echo $urlsite?>/images/product/price/gia_xe_wigo.png" alt="Yaris G CVT"><p>5 cửa, 5 chỗ ngồi, ghế nỉ cao cấp</p><p>Số tự động vô cấp</p><p>Động cơ xăng dung tích 1.2L</p></div>
+					<div class="point"><img width="360" height="240" src="<?php echo $urlsite?>/images/product/price/gia_xe_vf3.png" alt="<?php echo $cars[32][3]?>"><p>1.100.000 VNĐ/tháng cho quãng đường di chuyển dưới 1.500 km.</p><p>1.400.000 VNĐ/tháng cho quãng đường di chuyển từ 1.500 đến 2.500 km.</p><p>3.000.000 VNĐ/tháng cho quãng đường di chuyển trên 2.500 km.</p></div>
 				</li>
 			</ul>			
 		</div>
@@ -83,15 +83,15 @@
 
 	<!-- Exterior -->
 	<div id="exterior" class="section container clearfix">
-		<h2 class="section-title">Ngoại thất</h2>
+		<h2 class="section-title">Thông số kỹ thuật</h2>
 		<div class="vehicle-slider">
 			<ul class="slides clearfix">
 				<li class="left top">
-					<img src="<?php echo $urlsite?>/images/product/wigo/exterior/ngoaithat1.jpg">
+					<img src="<?php echo $urlsite?>/images/product/vf3/exterior/ngoaithat1.jpg">
 	
 				</li>
 				<li class="left top">
-					<img src="<?php echo $urlsite?>/images/product/wigo/exterior/ngoaithat2.jpg">
+					<img src="<?php echo $urlsite?>/images/product/vf3/exterior/ngoaithat2.jpg">
 					
 				</li>
 			</ul>
@@ -304,7 +304,7 @@
 
 		<div class="vehicle-video">
 			<ul class="slides">
-				<li><iframe width="100%" height="675" src="//www.youtube.com/embed/SmltyS7fic8" frameborder="0" allowfullscreen></iframe></li>
+				<li><iframe width="100%" height="675" src="https://www.youtube.com/embed/brkiBs4bRvI?si=Oluw6FqXl7pxxbYm" frameborder="0" allowfullscreen></iframe></li>
 						
 			</ul>
 		</div>
@@ -321,7 +321,7 @@
 		</div>
 
 		<div class="vehicle-call-to-action">
-			<a download href="<? echo $hotline?>"><small>Hotline: </small> <? echo $hotline?></a>
+			<a download href="<?php echo $hotline?>"><small>Hotline: </small> <?php echo $hotline?></a>
 		</div>
 	</div>
 
