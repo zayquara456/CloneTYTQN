@@ -1,7 +1,7 @@
 <div class="main">
 	<div id="color" class="vehicle-banner section container clearfix">
 		<div class="basic">
-			<p></p><h1>AVANZA</h1><p class="banner-price">Giá bán lẻ đề xuất (Đã bao gồm 10% VAT) <br/><span><?php echo number_format($cars[45][6])?></span> VNĐ</p>
+			<p></p><h1>VF5</h1><p class="banner-price">Giá bán lẻ đề xuất (Đã bao gồm 10% VAT) <br/><span><?php echo number_format($cars[45][6])?></span> VNĐ</p>
 		</div>
 		<div class="color-360">
 			<div id="vehicle_color_360_viewer" class="viewer"></div>
@@ -31,14 +31,14 @@
 	        </div>
 	   	 	<a id="vehicle_share_button" class="button-toggle icon" href="#"></a>
 		</div>
-		<div class="hotline"><p>HOTLINE <span><? echo $hotline?></span></p></div>
+		<div class="hotline"><p>HOTLINE <span><?php echo $hotline?></span></p></div>
 	</div>
 	<!-- Navigation -->
 	<div class="vehicle-navigation">
 		<div class="container clearfix">
 			<a class="logo" href="<?php echo $urlsite?>"></a>
 			<ul class="menu-cta">
-				<li><a class="button" href="#">Hotline: <? echo $hotline?></a></li>
+				<li><a class="button" href="#">Hotline: <?php echo $hotline?></a></li>
 				<li><a class="button" target="_blank" href="http://www.toyota.com.vn/yaris/dang-ky-lai-thu">Đăng ký lái thử</a></li>
 			</ul>
 

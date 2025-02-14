@@ -573,13 +573,13 @@ if($action=="vehicle_color_select" && $post==1020 && $color==1)//1 thứ tự đ
 {
   $vcolor='R79'; //'W09 là mãu màu sếp vị trí đầu tiên trong file vf3.php cũng phải đầu tiên'
   $link='/images\/product\/vf3\/360\/';
-  vehicle_color_select($link,$vcolor,2);
+  vehicle_color_select($link,$vcolor,36);
 }
 elseif($action=="vehicle_color_select" && $post==1020 && $color==2)
 {
   $vcolor='R80';
   $link='/images\/product\/vf3\/360\/';
-   vehicle_color_select($link,$vcolor,1);
+   vehicle_color_select($link,$vcolor,36);
 }
 elseif($action=="vehicle_color_select" && $post==1020 && $color==3)
 {
