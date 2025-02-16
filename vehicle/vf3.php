@@ -29,8 +29,8 @@
 	        <div class="social-network">	            
 						<a href="http://www.facebook.com/share.php?u=<?php echo $urlsite?>" class="facebook share-popup">Facebook</a> 
 						<a href="https://plus.google.com/share?url=<?php echo $urlsite?>" class="google share-popup">Google+</a> 
-						<a href="http://twitter.com/share?text=yaris" class="twitter share-popup">Twitter</a> 
-						<a href="http://youtube.com/toyotamotorvietnam" target="blank" class="youtube">YouTube</a>
+						<a href="http://twitter.com/share?text=vf3" class="twitter share-popup">Twitter</a> 
+						<a href="http://youtube.com/" target="blank" class="youtube">YouTube</a>
 	        </div>
 	   	 	<a id="vehicle_share_button" class="button-toggle icon" href="#"></a>
 		</div>

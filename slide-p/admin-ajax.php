@@ -191,49 +191,6 @@ elseif($action=="vehicle_color_select" && $post==1022 && $color==6)
   $link='http:\/\/toyota.quangninh.vn\/images\/product\/vios\/360\/';
 vehicle_color_select($link,$vcolor,16);
 }
-//yaris color
-if($action=="vehicle_color_select" && $post==1021 && $color==1)
-{
-  $vcolor='1D6';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/yaris\/360\/';
-  vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1021 && $color==2)
-{
-  $vcolor='6W2';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/yaris\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1021 && $color==3)
-{
-  $vcolor='3R3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/yaris\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1021 && $color==4)
-{
-  $vcolor='040';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/yaris\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1021 && $color==5)
-{
-  $vcolor='1G3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/yaris\/360\/';
-vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1021 && $color==6)
-{
-  $vcolor='218';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/yaris\/360\/';
-vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1021 && $color==7)
-{
-  $vcolor='4R8';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/yaris\/360\/';
-vehicle_color_select($link,$vcolor,1);
-}
 //corolla color
 if($action=="vehicle_color_select" && $post==1023 && $color==1)
 {
@@ -698,60 +655,66 @@ elseif($action=="vehicle_color_select" && $post==1034 && $color==7)
    vehicle_color_select($link,$vcolor,1);
 }
 
-//veloz color 
+//vf6 color 
 if($action=="vehicle_color_select" && $post==1035 && $color==1)//1 thứ tự đầu tiên  //post là mã trùng với với .haccess 1035 của veloz 
 {
   $vcolor='089'; //'089 là mãu màu sếp vị trí đầu tiên trong file veloz.php cũng phải đầu tiên'
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/veloz\/360\/';
+  $link='/images\/product\/vf6\/360\/';
   vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1035 && $color==2)
 {
   $vcolor='P20';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/veloz\/360\/';
+  $link='/images\/product\/vf6\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1035 && $color==3)
 {
   $vcolor='S28';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/veloz\/360\/';
+  $link='/images\/product\/vf6\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1035 && $color==4)
 {
   $vcolor='X12';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/veloz\/360\/';
+  $link='/images\/product\/vf6\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1035 && $color==5)
 {
   $vcolor='3Q3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/veloz\/360\/';
+  $link='/images\/product\/vf6\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
-//avanza color 
+//vf5 color 
 if($action=="vehicle_color_select" && $post==1036 && $color==1)//1 thứ tự đầu tiên  //post là mã trùng với với .haccess 1035 của veloz 
 {
   $vcolor='W09'; //'089 là mãu màu sếp vị trí đầu tiên trong file veloz.php cũng phải đầu tiên'
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/avanza\/360\/';
+  $link='/images\/product\/vf5\/360\/';
   vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1036 && $color==2)
 {
   $vcolor='P20';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/avanza\/360\/';
+  $link='/images\/product\/vf5\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1036 && $color==3)
 {
   $vcolor='S28';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/avanza\/360\/';
+  $link='/images\/product\/vf5\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1036 && $color==4)
 {
   $vcolor='X12';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/avanza\/360\/';
+  $link='/images\/product\/vf5\/360\/';
+   vehicle_color_select($link,$vcolor,1);
+}
+elseif($action=="vehicle_color_select" && $post==1036 && $color==5)
+{
+  $vcolor='3Q3';
+  $link='/images\/product\/vf5\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
 //yaris cross
