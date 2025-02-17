@@ -66,12 +66,12 @@
 				<li class="item">
 					<h3 class="name">VF6 PLUS</h3>
 					<p class="price clearfix"><?php echo number_format($cars[42][6])?> VNĐ<small>Giá Đã bao gồm 10% VAT</small></p>
-					<div class="point"><img width="360" height="240" src="<?php echo $urlsite?>/images/product/price/gia_xe_veloz.png" alt="Veloz Cross"><p>5 cửa, 7 chỗ ngồi, ghế da kèm nỉ cao cấp</p><p>Số tự động vô cấp</p><p>Động cơ xăng dung tích 1.5L</p></div>
+					<div class="point"><img width="360" height="240" src="<?php echo $urlsite?>/images/product/price/gia_xe_vf6.png" alt="vf6"><p>Giá bao gồm pin: + 90,000,000 VNĐ</p><p>Quãng đường di chuyển: 460 km/lần sạc</p><p>Công suất tối đa: 150 kW/201 hp</p><p>Mô men xoắn cực đại: 310 Nm</p><p>Kích thước La-zăng: 19 inch</p></div>
 				</li>
 				<li class="item">
-					<h3 class="name">VF6 ECO</h3>
+					<h3 class="name">VF6S</h3>
 					<p class="price clearfix"><?php echo number_format($cars[43][6])?> VNĐ<small>Giá Đã bao gồm 10% VAT</small></p>
-					<div class="point"><img width="360" height="240" src="<?php echo $urlsite?>/images/product/price/gia_xe_veloz.png" alt="Veloz Cross Top"><p>5 cửa, 7 chỗ ngồi, ghế da kèm nỉ cao cấp</p><p>Số tự động vô cấp</p><p>Động cơ xăng dung tích 1.5L</p></div>
+					<div class="point"><img width="360" height="240" src="<?php echo $urlsite?>/images/product/price/gia_xe_vf6.png" alt="vf6"><p>Giá bao gồm pin: + 90,000,000 VNĐ</p><p>Quãng đường di chuyển: 480 km/lần sạc</p><p>Công suất tối đa: 130 kW/174 hp</p><p>Mô men xoắn cực đại: 250 Nm</p><p>Kích thước La-zăng: 17 inch</p></div>
 				</li>
 				<!--<li class="item">
 					<h3 class="name">Yaris E CVT</h3>
@@ -89,17 +89,17 @@
 		<div class="vehicle-slider">
 			<ul class="slides clearfix">
 				<li class="left top">
-					<img src="<?php echo $urlsite?>/images/product/veloz/exterior/ngoai_that_01.png">
+					<img src="<?php echo $urlsite?>/images/product/vf6/exterior/ngoai_that_01.png">
 					<div class="description clearfix"><p>TIỆN NGHI NGOÀI PHONG CÁCH</p>
 </div>
 				</li>
 				<li class="left top">
-					<img src="<?php echo $urlsite?>/images/product/veloz/exterior/ngoai_that_02.png">
+					<img src="<?php echo $urlsite?>/images/product/vf6/exterior/ngoai_that_02.png">
 					<div class="description clearfix"><p>THIẾT KẾ MẠNH MẼ, HIÊN NGANG</p>
 </div>
 				</li>
 				<li class="left top">
-					<img src="<?php echo $urlsite?>/images/product/veloz/exterior/ngoai_that_03.png">
+					<img src="<?php echo $urlsite?>/images/product/vf6/exterior/ngoai_that_03.png">
 					<div class="description clearfix"><p>CHIẾC XE MPV CHO MỌI GIA ĐÌNH VIỆT</p>
 </div>
 				</li>
@@ -173,15 +173,15 @@
 			<div class="vehicle-slider">
 			<ul class="slides clearfix">
 				<li class="left top">
-					<img src="<?php echo $urlsite?>/images/product/veloz/interior/noi_that_wigo1.png">
+					<img src="<?php echo $urlsite?>/images/product/vf6/interior/noi_that_wigo1.png">
 					<!--<div class="description clearfix"><p>Phấn khích như một chiếc xe thể thao</p>
 </div>-->
 				</li>
 				<li class="left top">
-					<img src="<?php echo $urlsite?>/images/product/veloz/interior/noi_that_wigo2.png">
+					<img src="<?php echo $urlsite?>/images/product/vf6/interior/noi_that_wigo2.png">
 				</li>
 				<li class="left top">
-					<img src="<?php echo $urlsite?>/images/product/veloz/interior/noi_that_wigo3.png">
+					<img src="<?php echo $urlsite?>/images/product/vf6/interior/noi_that_wigo3.png">
 				</li>d
 			</ul>
 		</div>
@@ -437,7 +437,7 @@ $a=0;
 		<h2 class="section-title">Bước tiếp theo</h2>
 
 		<div class="vehicle-call-to-action">
-			<a download href="<?php echo $urlsite?>/document/veloz/veloz_catalouge.pdf"><small>Tải về</small> Catalog VF6</a>
+			<a download href="<?php echo $urlsite?>/document/vf6/vf6.pdf"><small>Tải về</small> Catalog VF6</a>
 		</div>
 		<div class="vehicle-call-to-action">
 			<a href="<?php echo $urlsite?>/du-toan-chi-phi/veloz"><small>Dự toán</small> Chi phí</a>

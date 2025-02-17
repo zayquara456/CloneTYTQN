@@ -151,12 +151,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
   document.getElementById('searchButton').addEventListener('click', function() {
     var noiDungTimKiem = document.getElementById('searchInput').value;
-    var urlTimKiemGoogle = "https://www.google.com/search?q=site%3A+vinfastquangninh.com.vn+" + noiDungTimKiem;
+    var urlTimKiemGoogle = "https://www.google.com/search?q=site%3A+toyota.quangninh.vn+" + noiDungTimKiem;
     window.location.href = urlTimKiemGoogle;
   });
 </script>
 				<p class="hotline clearfix">
-					<a class="facebook" href="https://www.facebook.com/yentoyotaquangninh" target="blank"></a>
+					<a class="facebook" href="https://www.facebook.com/vinfastphongnguyen.vn" target="blank"></a>
 					<a class="cellphone" href="tel:<?php echo $hotline?>"><?php echo $hotline?></a>
 				</p>
 				<a id="menu_toggler" class="menu-toggler icon" href="#">
@@ -173,7 +173,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<li><a href="<?php echo $urlsite?>/vf3/"><h3>VF3</h3><span><?php echo number_format($cars[32][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf3360x240.png"><div class="highlight"></div></a></li>
 			<li><a href="<?php echo $urlsite?>/vf5/"><h3>VF5</h3><span><?php echo number_format($cars[45][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf5360x240.png"><div class="highlight"></div></a></li>
             <li><a href="<?php echo $urlsite?>/vf6/"><h3>VF6</h3><span><?php echo number_format($cars[43][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf6360x240.png"><div class="highlight"></div></a></li>
-            <li><a href="<?php echo $urlsite?>/vios/"><h3>VF7</h3><span><?php echo number_format($cars[5][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf7360x240.png"><div class="highlight"></div></a></li>            
+            <li><a href="<?php echo $urlsite?>/vf7/"><h3>VF7</h3><span><?php echo number_format($cars[5][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf7360x240.png"><div class="highlight"></div></a></li>            
             <li><a href="<?php echo $urlsite?>/raize/"><h3>VF8</h3><span><?php echo number_format($cars[40][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf8360x240.png"><div class="highlight"></div></a></li>
 			<li><a href="<?php echo $urlsite?>/yaris/"><h3>VF9</h3><span><?php echo number_format($cars[0][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf9360x240.png"><div class="highlight"></div></a></li>
 		    	</ul>

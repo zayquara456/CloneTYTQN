@@ -2,9 +2,9 @@
 $page = $_GET['page'] ? $_GET['page'] : $_POST['page'];
 $author = 'Vinfast Bãi Cháy';
 $title 	= 'Vinfast Bãi Cháy';
-$company = 'VINFAST BÃI CHÁY';
+$company = 'VINFAST PHONG NGUYÊN';
 $address = 'Ô số 83 Đông Ga,Phường Giếng Đáy,Hạ Long,Quảng Ninh, Ha Long, Vietnam';
-$hotline = '0971542222';
+$hotline = '0569.323.456';
 $email = 'khangpradoluxury@gmail.com';
 $urlsite = "";
 $website = '';
@@ -194,9 +194,9 @@ $cars = array
   array(0,"yaris","YG","Yaris G (CVT)","NSP151L-AHXGKU","CBU",684000000,480700),
   array(1,"yaris","YXH","Yaris HEV (CVT)","NSP151L-AHXRKU","CBU",765000000,480700),
   array(2,"vios","VG","Vios G (CVT)","NSP151L-BEXGKU","CKD",545000000,480700),
-  array(3,"vios","VE","Vios E (CVT)","NSP151L-BEXGKU","CKD",540000000,480700),
-  array(4,"vios","VK","Vios E (CVT)","NSP151L-BEMRKU","CKD",488000000,480700),
-  array(5,"vios","VE","Vios E (MT)","NSP151L-BEMRKU","CKD",458000000,480700),
+  array(3,"VF7","VE","VF 7 PLUS (Trần kính toàn cảnh)","NSP151L-BEXGKU","CKD",1024000000,480700),
+  array(4,"VF7","VK","VF 7 PLUS","NSP151L-BEMRKU","CKD",999000000,480700),
+  array(5,"VF7","VE","VF 7 ECO","NSP151L-BEMRKU","CKD",850000000,480700),
   array(6,"corolla","CQ","Corolla Altis 2.0V Sport","ZRE173L-GEXVKH","CKD",932000000,480700),
   array(7,"corolla","CZ","Corolla Altis 2.0V (CVT-i)","ZRE173L-GEXVKH","CKD",878000000,480700),
   array(8,"corolla","CV","Corolla Altis 1.8G (CVT)","ZRE173L-GEXVKH","CKD",780000000,480700),
@@ -235,7 +235,7 @@ $cars = array
   array(40,"raize","RZ","Raize 1.0 (CVT)","B101LA-GMSGF","CBU",498000000,480700),
   array(41,"camry","KH","Camry 2.5 Hybrid","ASV50L-JETEKU","CBU",1495000000,480700),
   array(42,"VF6","VF6P","VF6 Plus ","ASV50L-JETEKU","CBU",710000000,940000),
-  array(43,"VF6","VF6E","VF6 Eco","ASV50L-JETEKU","CBU",640000000,940000),
+  array(43,"VF6","VF6S","VF6S","ASV50L-JETEKU","CBU",640000000,940000),
   array(44,"vf5","MP","VF5 mua pin","ASV50L-JETEKU","CBU",540000000,480700),
   array(45,"vf5","TP","VF5 thuê pin","ASV50L-JETEKU","CBU",480000000,480700),
   array(46,"yaris","YXV","Yaris Cross G (CVT)","NSP151L-AHXRKU","CBU",650000000,480700),

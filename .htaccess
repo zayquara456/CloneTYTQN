@@ -30,7 +30,7 @@ RewriteRule ^question/$ index.php?f=question [NC,L]
 RewriteRule ^question$ index.php?f=question [NC,L]
 #url vehicle
 RewriteRule ^yaris/$ index.php?page=vehicle-yaris&post=1021 [NC,L]
-RewriteRule ^vios/$ index.php?page=vehicle-vios&post=1022 [NC,L]
+RewriteRule ^vf7/$ index.php?page=vehicle-vf7&post=1022 [NC,L]
 RewriteRule ^corolla-altis/$ index.php?page=vehicle-corolla-altis&post=1023 [NC,L]
 RewriteRule ^camry/$ index.php?page=vehicle-camry&post=1024 [NC,L]
 RewriteRule ^innova/$ index.php?page=vehicle-innova&post=1025 [NC,L]

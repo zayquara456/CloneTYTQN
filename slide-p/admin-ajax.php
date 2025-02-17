@@ -154,42 +154,42 @@ function vehicle_color_select($link, $vcolor, $imgcount){
   }
 }
 // danh sach mau xe
-//vios color
+//vf7 color
 if($action=="vehicle_color_select" && $post==1022 && $color==1)
 {
   $vcolor='1D4';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/vios\/360\/';
-  vehicle_color_select($link,$vcolor,16);
+  $link='/images\/product\/vf7\/360\/';
+  vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1022 && $color==2)
 {
   $vcolor='218';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/vios\/360\/';
-   vehicle_color_select($link,$vcolor,16);
+  $link='/images\/product\/vf7\/360\/';
+   vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1022 && $color==3)
 {
   $vcolor='4R0';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/vios\/360\/';
-   vehicle_color_select($link,$vcolor,16);
+  $link='/images\/product\/vf7\/360\/';
+   vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1022 && $color==4)
 {
   $vcolor='040';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/vios\/360\/';
-   vehicle_color_select($link,$vcolor,16);
+  $link='/images\/product\/vf7\/360\/';
+   vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1022 && $color==5)
 {
   $vcolor='089';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/vios\/360\/';
-vehicle_color_select($link,$vcolor,16);
+  $link='/images\/product\/vf7\/360\/';
+vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1022 && $color==6)
 {
   $vcolor='3R3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/vios\/360\/';
-vehicle_color_select($link,$vcolor,16);
+  $link='/images\/product\/vf7\/360\/';
+vehicle_color_select($link,$vcolor,1);
 }
 //corolla color
 if($action=="vehicle_color_select" && $post==1023 && $color==1)
