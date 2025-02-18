@@ -611,47 +611,41 @@ elseif($action=="vehicle_color_select" && $post==1033 && $color==7)
   $link='http:\/\/toyota.quangninh.vn\/images\/product\/cross\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
-//raize color 
+//vf8 color 
 if($action=="vehicle_color_select" && $post==1034 && $color==1)//1 thứ tự đầu tiên  //post là mã trùng với với .haccess 1034 của raize 
 {
   $vcolor='r40'; //'1D6 là mãu màu sếp vị trí đầu tiên trong file wigo.php cũng phải đầu tiên'
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/raize\/360\/';
+  $link='/images\/product\/vf8\/360\/';
   vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1034 && $color==2)
 {
   $vcolor='x13';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/raize\/360\/';
+  $link='/images\/product\/vf8\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1034 && $color==3)
 {
   $vcolor='w25';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/raize\/360\/';
+  $link='/images\/product\/vf8\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1034 && $color==4)
 {
   $vcolor='xj7';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/raize\/360\/';
+  $link='/images\/product\/vf8\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1034 && $color==5)
 {
   $vcolor='xj8';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/raize\/360\/';
+  $link='/images\/product\/vf8\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
 elseif($action=="vehicle_color_select" && $post==1034 && $color==6)
 {
   $vcolor='xj9';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/raize\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1034 && $color==7)
-{
-  $vcolor='xk1';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/raize\/360\/';
+  $link='/images\/product\/vf8\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
 
