@@ -40,7 +40,7 @@
 		<div class="container clearfix">
 			<a class="logo" href="<?php echo $urlsite?>"></a>
 			<ul class="menu-cta">
-				<li><a class="button" href="tel:<? echo $hotline?>">Hotline: <? echo $hotline?></a></li>
+				<li><a class="button" href="tel:<?php echo $hotline?>">Hotline: <?php echo $hotline?></a></li>
 				<li><a class="button" target="_blank" href="http://www.toyota.com.vn/vios/dang-ky-lai-thu">Đăng ký lái thử</a></li>
 			</ul>
 

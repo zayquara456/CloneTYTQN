@@ -191,340 +191,6 @@ elseif($action=="vehicle_color_select" && $post==1022 && $color==6)
   $link='/images\/product\/vf7\/360\/';
 vehicle_color_select($link,$vcolor,1);
 }
-//corolla color
-if($action=="vehicle_color_select" && $post==1023 && $color==1)
-{
-  $vcolor='1K3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/corolla\/360\/';
-  vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1023 && $color==2)
-{
-  $vcolor='218';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/corolla\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1023 && $color==3)
-{
-  $vcolor='3R3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/corolla\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1023 && $color==4)
-{
-  $vcolor='1D6';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/corolla\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1023 && $color==5)
-{
-  $vcolor='089';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/corolla\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-//camry color
-if($action=="vehicle_color_select" && $post==1024 && $color==1)
-
-{
-  $vcolor='1D4';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/camry\/360\/';
-  vehicle_color_select($link,$vcolor,16);
-}
-elseif($action=="vehicle_color_select" && $post==1024 && $color==2)
-{
-  $vcolor='3T3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/camry\/360\/';
-   vehicle_color_select($link,$vcolor,16);
-}
-elseif($action=="vehicle_color_select" && $post==1024 && $color==3)
-{
-  $vcolor='4W9';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/camry\/360\/';
-   vehicle_color_select($link,$vcolor,16);
-}
-elseif($action=="vehicle_color_select" && $post==1024 && $color==4)
-{
-  $vcolor='4X7';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/camry\/360\/';
-   vehicle_color_select($link,$vcolor,16);
-}
-elseif($action=="vehicle_color_select" && $post==1024 && $color==5)
-{
-  $vcolor='089';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/camry\/360\/';
-   vehicle_color_select($link,$vcolor,16);
-}
-elseif($action=="vehicle_color_select" && $post==1024 && $color==6)
-{
-  $vcolor='218';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/camry\/360\/';
-   vehicle_color_select($link,$vcolor,16);
-}
-elseif($action=="vehicle_color_select" && $post==1024 && $color==7)
-{
-  $vcolor='222';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/camry\/360\/';
-   vehicle_color_select($link,$vcolor,16);
-}
-//innova color
-if($action=="vehicle_color_select" && $post==1025 && $color==1)
-{
-  $vcolor='4V8';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/innova\/360\/';
-  vehicle_color_select($link,$vcolor,36);
-}
-elseif($action=="vehicle_color_select" && $post==1025 && $color==2)
-{
-  $vcolor='1H2';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/innova\/360\/';
-   vehicle_color_select($link,$vcolor,36);
-}
-elseif($action=="vehicle_color_select" && $post==1025 && $color==3)
-{
-  $vcolor='1D6';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/innova\/360\/';
-   vehicle_color_select($link,$vcolor,36);
-}
-elseif($action=="vehicle_color_select" && $post==1025 && $color==4)
-{
-  $vcolor='089';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/innova\/360\/';
-   vehicle_color_select($link,$vcolor,36);
-}
-elseif($action=="vehicle_color_select" && $post==1025 && $color==5)
-{
-  $vcolor='218';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/innova\/360\/';
-   vehicle_color_select($link,$vcolor,36);
-}
-//fortuner color
-if($action=="vehicle_color_select" && $post==1026 && $color==1)
-{
-  $vcolor='4W9';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/fortuner\/360\/';
-  vehicle_color_select($link,$vcolor,36);
-}
-elseif($action=="vehicle_color_select" && $post==1026 && $color==2)
-{
-  $vcolor='1D6';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/fortuner\/360\/';
-   vehicle_color_select($link,$vcolor,36);
-}
-elseif($action=="vehicle_color_select" && $post==1026 && $color==3)
-{
-  $vcolor='218';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/fortuner\/360\/';
-   vehicle_color_select($link,$vcolor,36);
-}
-elseif($action=="vehicle_color_select" && $post==1026 && $color==4)
-{
-  $vcolor='1G3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/fortuner\/360\/';
-   vehicle_color_select($link,$vcolor,36);
-}
-elseif($action=="vehicle_color_select" && $post==1026 && $color==5)
-{
-  $vcolor='070';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/fortuner\/360\/';
-   vehicle_color_select($link,$vcolor,36);
-}
-//land cruiser prado color
-if($action=="vehicle_color_select" && $post==1027 && $color==1)
-{
-  $vcolor='3R3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landprado\/360\/';
-  vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1027 && $color==2)
-{
-  $vcolor='4V8';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landprado\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1027 && $color==3)
-{
-  $vcolor='4X4';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landprado\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1027 && $color==4)
-{
-  $vcolor='070';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landprado\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1027 && $color==5)
-{
-  $vcolor='1F7';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landprado\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1027 && $color==6)
-{
-  $vcolor='1G3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landprado\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1027 && $color==7)
-{
-  $vcolor='221';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landprado\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1027 && $color==8)
-{
-  $vcolor='202';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landprado\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1027 && $color==9)
-{
-  $vcolor='4T3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landprado\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1027 && $color==10)
-{
-  $vcolor='6V4';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landprado\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-//land cruiser color
-if($action=="vehicle_color_select" && $post==1028 && $color==1)
-{
-  $vcolor='070';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landcruiser\/360\/';
-  vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1028 && $color==2)
-{
-  $vcolor='1F7';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landcruiser\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1028 && $color==3)
-{
-  $vcolor='1G3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landcruiser\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1028 && $color==4)
-{
-  $vcolor='202';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landcruiser\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1028 && $color==5)
-{
-  $vcolor='4V8';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landcruiser\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1028 && $color==6)
-{
-  $vcolor='218';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landcruiser\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1028 && $color==7)
-{
-  $vcolor='8X8';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/landcruiser\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-//Hilux color
-if($action=="vehicle_color_select" && $post==1029 && $color==1)
-{
-  $vcolor='070';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/hilux\/360\/';
-  vehicle_color_select($link,$vcolor,36);
-}
-elseif($action=="vehicle_color_select" && $post==1029 && $color==2)
-{
-  $vcolor='1D6';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/hilux\/360\/';
-   vehicle_color_select($link,$vcolor,36);
-}
-elseif($action=="vehicle_color_select" && $post==1029 && $color==3)
-{
-  $vcolor='1G3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/hilux\/360\/';
-   vehicle_color_select($link,$vcolor,36);
-}
-elseif($action=="vehicle_color_select" && $post==1029 && $color==4)
-{
-  $vcolor='218';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/hilux\/360\/';
-   vehicle_color_select($link,$vcolor,36);
-}
-elseif($action=="vehicle_color_select" && $post==1029 && $color==5)
-{
-  $vcolor='3T6';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/hilux\/360\/';
-   vehicle_color_select($link,$vcolor,36);
-}
-elseif($action=="vehicle_color_select" && $post==1029 && $color==6)
-{
-  $vcolor='4R8';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/hilux\/360\/';
-   vehicle_color_select($link,$vcolor,36);
-}
-//Hiace color
-if($action=="vehicle_color_select" && $post==1030 && $color==1)
-{
-  $vcolor='058';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/hiace\/360\/';
-  vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1030 && $color==2)
-{
-  $vcolor='1E7';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/hiace\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-//wigo color
-if($action=="vehicle_color_select" && $post==1032 && $color==1)//1 thứ tự đầu tiên  //post là mã trùng với với .haccess 1032 của wigo
-{
-  $vcolor='R79'; //'W09 là mãu màu sếp vị trí đầu tiên trong file wigo.php cũng phải đầu tiên'
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/wigo\/360\/';
-  vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1032 && $color==2)
-{
-  $vcolor='R80';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/wigo\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1032 && $color==3)
-{
-  $vcolor='S28';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/wigo\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1032 && $color==4)
-{
-  $vcolor='W09';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/wigo\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1032 && $color==5)
-{
-  $vcolor='1G3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/wigo\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1032 && $color==6)
-{
-  $vcolor='218';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/wigo\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1032 && $color==7)
-{
-  $vcolor='4R8';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/wigo\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
 //vf3 color
 if($action=="vehicle_color_select" && $post==1020 && $color==1)//1 thứ tự đầu tiên  //post là mã trùng với với .haccess 1032 của wigo
 {
@@ -566,49 +232,6 @@ elseif($action=="vehicle_color_select" && $post==1020 && $color==6)
 {
   $vcolor='6W2';
   $link='/images\/product\/vf3\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-//cross color
-if($action=="vehicle_color_select" && $post==1033 && $color==1)//1 thứ tự đầu tiên  //post là mã trùng với với .haccess 1032 của wigo
-{
-  $vcolor='1K3'; //'1D6 là mãu màu sếp vị trí đầu tiên trong file wigo.php cũng phải đầu tiên'
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/cross\/360\/';
-  vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1033 && $color==2)
-{
-  $vcolor='218';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/cross\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1033 && $color==3)
-{
-  $vcolor='3R3';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/cross\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1033 && $color==4)
-{
-  $vcolor='089';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/cross\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1033 && $color==5)
-{
-  $vcolor='1K0';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/cross\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1033 && $color==6)
-{
-  $vcolor='4X7';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/cross\/360\/';
-   vehicle_color_select($link,$vcolor,1);
-}
-elseif($action=="vehicle_color_select" && $post==1033 && $color==7)
-{
-  $vcolor='8X2';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/cross\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
 //vf8 color 
@@ -711,36 +334,41 @@ elseif($action=="vehicle_color_select" && $post==1036 && $color==5)
   $link='/images\/product\/vf5\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
-//yaris cross
-if($action=="vehicle_color_select" && $post==1037 && $color==1)//1 thứ tự đầu tiên  //post là mã trùng với với .haccess 1035 của veloz 
+//vf9 color 
+if($action=="vehicle_color_select" && $post==1021 && $color==1)//1 thứ tự đầu tiên  //post là mã trùng với với .haccess 1035 của veloz 
 {
-  $vcolor='218'; //'089 là mãu màu sếp vị trí đầu tiên trong file veloz.php cũng phải đầu tiên'
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/yariscross\/360\/';
+  $vcolor='1D6'; //'089 là mãu màu sếp vị trí đầu tiên trong file veloz.php cũng phải đầu tiên'
+  $link='/images\/product\/vf9\/360\/';
   vehicle_color_select($link,$vcolor,1);
 }
-elseif($action=="vehicle_color_select" && $post==1037 && $color==2)
+elseif($action=="vehicle_color_select" && $post==1021 && $color==2)
 {
-  $vcolor='089';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/yariscross\/360\/';
+  $vcolor='6W2';
+  $link='/images\/product\/vf9\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
-elseif($action=="vehicle_color_select" && $post==1037 && $color==3)
+elseif($action=="vehicle_color_select" && $post==1021 && $color==3)
 {
-  $vcolor='XM1';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/yariscross\/360\/';
+  $vcolor='3R3';
+  $link='/images\/product\/vf9\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
-elseif($action=="vehicle_color_select" && $post==1037 && $color==4)
+elseif($action=="vehicle_color_select" && $post==1021 && $color==4)
 {
-  $vcolor='2PS';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/yariscross\/360\/';
+  $vcolor='040';
+  $link='/images\/product\/vf9\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
-elseif($action=="vehicle_color_select" && $post==1037 && $color==5)
+elseif($action=="vehicle_color_select" && $post==1021 && $color==5)
 {
-  $vcolor='XM2';
-  $link='http:\/\/toyota.quangninh.vn\/images\/product\/yariscross\/360\/';
+  $vcolor='1G3';
+  $link='/images\/product\/vf9\/360\/';
    vehicle_color_select($link,$vcolor,1);
 }
-
+elseif($action=="vehicle_color_select" && $post==1021 && $color==6)
+{
+  $vcolor='218';
+  $link='/images\/product\/vf9\/360\/';
+   vehicle_color_select($link,$vcolor,1);
+}
 ?>

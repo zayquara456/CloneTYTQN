@@ -175,7 +175,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="<?php echo $urlsite?>/vf6/"><h3>VF6</h3><span><?php echo number_format($cars[43][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf6360x240.png"><div class="highlight"></div></a></li>
             <li><a href="<?php echo $urlsite?>/vf7/"><h3>VF7</h3><span><?php echo number_format($cars[5][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf7360x240.png"><div class="highlight"></div></a></li>            
             <li><a href="<?php echo $urlsite?>/vf8/"><h3>VF8</h3><span><?php echo number_format($cars[40][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf8360x240.png"><div class="highlight"></div></a></li>
-			<li><a href="<?php echo $urlsite?>/yaris/"><h3>VF9</h3><span><?php echo number_format($cars[0][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf9360x240.png"><div class="highlight"></div></a></li>
+			<li><a href="<?php echo $urlsite?>/vf9/"><h3>VF9</h3><span><?php echo number_format($cars[0][6])?></span> VNĐ<img src="<?php echo $urlsite?>/images/vf9360x240.png"><div class="highlight"></div></a></li>
 		    	</ul>
 		</li>
 	<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25"><a href="#">Mua xe</a>
@@ -199,7 +199,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </li>
 <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-98"><a href="#">Giới thiệu</a>
 <ul class="sub-menu">
-	<li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="<?php echo $urlsite?>/gioi-thieu-toyota-quang-ninh/">Toyota Quảng Ninh</a></li>
+	<li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="<?php echo $urlsite?>/gioi-thieu-toyota-quang-ninh/">vinfast bãi cháy</a></li>
 	<!--<li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="#">Thông điệp từ Ban quản trị</a></li>
 	<li id="menu-item-258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-258"><a href="#">Hình ảnh Đại lý</a></li>-->
 </ul>

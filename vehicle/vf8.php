@@ -37,7 +37,7 @@
 		<div class="container clearfix">
 			<a class="logo" href="<?php echo $urlsite?>"></a>
 			<ul class="menu-cta">
-				<li><a class="button" href="#">Hotline: <? echo $hotline?></a></li>
+				<li><a class="button" href="#">Hotline: <?php echo $hotline?></a></li>
 				<li><a class="button" target="_blank" href="/raize/dang-ky-lai-thu">Đăng ký lái thử</a></li>
 			</ul>
 

@@ -34,7 +34,7 @@ switch ($description) {
         $description= $home_description;
 }
 $vehicle_price_list='<div class="vehicle-call-to-action pricing">
-			<a download href="'.$urlsite.'/document/bang-gia-xe-toyota.pdf"><small>Tải về </small> Bảng giá</a>
+			<a download href="#"><small>Tải về </small> Bảng giá</a>
 
 		</div>';
 $title_tag 	= 'VINFAST BÃI CHÁY - BẢNG GIÁ, KHUYẾN MẠI 2025 VINFAST VIỆT NAM';
@@ -72,96 +72,76 @@ if ($page=="news_detail")
 switch ($page) {
     	case "bang-gia-xe":
         $title_tag = "BẢNG GIÁ XE MỚI NHẤT 2025";
-		$description_tag = 'Giá xe Toyota Vios, Veloz, Avanza, Raize, Camry, Corolla Altis, Corolla Cross năm 2025 tại quảng ninh. Giá tốt nhất, mua xe chỉ cần 100tr-300tr. liên hê:'.$hotline;
+		$description_tag = 'Giá xe Vinfast vf3, vf5, vf6, vf7, vf8, vf9 năm 2025 tại quảng ninh. Giá tốt nhất, mua xe chỉ cần 100tr-300tr. liên hê:'.$hotline;
         break;
-          case "vehicle-raize":
-        $title_tag = "GIÁ XE TOYOTA RAIZE - TOYOTA QUẢNG NINH";
-		$description_tag = 'Toyota Quảng Ninh Chuyên cung cấp dòng xe Raize, với nhiều khuyến mại hấp dẫn. Chi tiết xin liên hê:'.$hotline;
+          case "vehicle-vf3":
+        $title_tag = "GIÁ XE VINFAST VF3 - VINFAST PHONG NGUYÊN BÃI CHÁY";
+		$description_tag = 'Vinfast Phong Nguyên Bãi Cháy Chuyên cung cấp dòng xe VF3, với nhiều khuyến mại hấp dẫn. Chi tiết xin liên hê:'.$hotline;
         break;
-    case "vehicle-yaris-cross":
-        $title_tag = "GIÁ XE TOYOTA YARIS CROSS - TOYOTA QUẢNG NINH";
-		$description_tag = 'Toyota Quảng Ninh Chuyên cung cấp dòng xe Yaris Cros, với nhiều khuyến mại hấp dẫn. Chi tiết xin liên hê:'.$hotline;
+    case "vehicle-vf5":
+        $title_tag = "GIÁ XE VINFAST VF5 - VINFAST PHONG NGUYÊN BÃI CHÁY";
+		$description_tag = 'Vinfast Phong Nguyên Bãi Cháy Chuyên cung cấp dòng xe VF5, với nhiều khuyến mại hấp dẫn. Chi tiết xin liên hê:'.$hotline;
         break;
-    case "vehicle-vios":
-        $title_tag = "GIÁ XE TOYOTA VIOS - TOYOTA QUẢNG NINH";
-		$description_tag = 'Giá xe Toyota Vios tốt nhất Quảng Ninh. Với 100tr bạn có thể sở hữu chiếc xe có số bán tốt nhất Việt Nam.'.$hotline;
+    case "vehicle-vf6":
+        $title_tag = "GIÁ XE VINFAST VF6 - VINFAST PHONG NGUYÊN BÃI CHÁY";
+		$description_tag = 'Giá xe Vinfast VF6 tốt nhất Quảng Ninh. Với 200tr bạn có thể sở hữu chiếc xe có số bán tốt nhất Việt Nam.'.$hotline;
         break;
-    case "vehicle-corolla-altis":
-        $title_tag = "GIÁ XE TOYOTA COROLLA ALTIS - TOYOTA QUẢNG NINH";
-		$description_tag = 'Xe ô tô Toyota Corolla Altis là mẫu sedan hạng C cỡ trung được khách hàng Việt rất tin cậy và yêu thích. Giá xe Toyota Altis 2025 mới tốt nhất liên hê:'.$hotline;
+    case "vehicle-vf7":
+        $title_tag = "GIÁ XE VINFAST VF7 - VINFAST PHONG NGUYÊN BÃI CHÁY";
+		$description_tag = 'Xe ô tô Vinfast VF6 là mẫu CUV hạng B cỡ trung được khách hàng Việt rất tin cậy và yêu thích. Giá xe VF6 2025 mới tốt nhất liên hê:'.$hotline;
         break;
-	case "vehicle-camry":
-        $title_tag = "GIÁ XE TOYOTA CAMRY - TOYOTA QUẢNG NINH";
-		$description_tag = 'Toyota Quảng Ninh Chuyên cung cấp dòng xe Camry, với nhiều khuyến mại hấp dẫn. Chi tiết xin liên hê:'.$hotline;
+	case "vehicle-vf8":
+        $title_tag = "GIÁ XE VINFAST VF8 - VINFAST PHONG NGUYÊN BÃI CHÁY";
+		$description_tag = 'Vinfast Phong Nguyên Bãi Cháy Chuyên cung cấp dòng xe VF8, với nhiều khuyến mại hấp dẫn. Chi tiết xin liên hê:'.$hotline;
         break;
-	case "vehicle-innova":
-        $title_tag = "GIA XE TOYOTA INNOVA  - TOYOTA QUẢNG NINH";
-		$description_tag = 'Toyota Quảng Ninh Chuyên cung cấp dòng xe Innova, với nhiều khuyến mại hấp dẫn. Chi tiết xin liên hê:'.$hotline;
-        break;
-	case "vehicle-fortuner":
-        $title_tag = "GIÁ XE TOYOTA FORTUNER - TOYOTA QUẢNG NINH";
-		$description_tag = 'Toyota Quảng Ninh Chuyên cung cấp dòng xe Fortuner, với nhiều khuyến mại hấp dẫn. Chi tiết xin liên hê:'.$hotline;
-        break;
-	case "vehicle-land-cruiser":
-        $title_tag = "GIÁ XE TOYOTA LAND CRUISER - TOYOTA QUẢNG NINH";
-		$description_tag = 'Toyota Quảng Ninh Chuyên cung cấp dòng xe Land Cruiser, với nhiều khuyến mại hấp dẫn. Chi tiết xin liên hê:'.$hotline;
-        break;
-	case "vehicle-land-cruiser-prado":
-        $title_tag = "GIÁ XE TOYOTA LAND CRUISER PRADO - TOYOTA QUẢNG NINH";
-		$description_tag = 'Toyota Quảng Ninh Chuyên cung cấp dòng xe Land Cruiser Prado, với nhiều khuyến mại hấp dẫn. Chi tiết xin liên hê:'.$hotline;
-        break;
-	case "vehicle-hilux":
-        $title_tag = "GIÁ XE TOYOTA VELOZ - TOYOTA QUẢNG NINH";
-		$description_tag = 'Toyota Quảng Ninh Chuyên cung cấp dòng xe Veloz, với nhiều khuyến mại hấp dẫn. Chi tiết xin liên hê:'.$hotline;
-        break;
-	case "vehicle-hiace":
-        $title_tag = "GIÁ XE TOYOTA CROSS - TOYOTA QUẢNG NINH";
-		$description_tag = 'Toyota Quảng Ninh Chuyên cung cấp dòng xe Cross, với nhiều khuyến mại hấp dẫn. Chi tiết xin liên hê:'.$hotline;
+	case "vehicle-vf9":
+        $title_tag = "GIÁ XE VINFAST VF9 - VINFAST PHONG NGUYÊN BÃI CHÁY";
+		$description_tag = 'Vinfast Phong Nguyên Bãi Cháy Chuyên cung cấp dòng xe VF9, với nhiều khuyến mại hấp dẫn. Chi tiết xin liên hê:'.$hotline;
         break;
 	case "du-toan-chi-phi":
-        $title_tag = "Bảng tính dự toán chi phí mua xe Toyota Tại Quảng Ninh 2025";
-		$description_tag = 'Bảng tính dự toán chi phí mua xe Toyota Vios, Camry, Corolla Altis, Innova năm 2025 tại quảng ninh. mua xe chỉ cần 100tr-300tr. liên hê:'.$hotline;
+        $title_tag = "Bảng tính dự toán chi phí mua xe Vinfast Tại Quảng Ninh 2025";
+		$description_tag = 'Bảng tính dự toán chi phí mua xe Vinfast Vios, Camry, Corolla Altis, Innova năm 2025 tại quảng ninh. mua xe chỉ cần 100tr-300tr. liên hê:'.$hotline;
         break;
 	case "cach-tinh-lai-suat-cho-vay-mua-xe-oto-tra-gop":
-        $title_tag = "Cách tính mua xe trả góp xe Toyota Tại Quảng Ninh 2025";
-		$description_tag = 'Cách tính mua xe trả góp xe Toyota Vios, Camry, Corolla Altis, Innova, fortuner năm 2025 tại quảng ninh. mua xe chỉ cần 100tr-300tr. liên hê:'.$hotline;
+        $title_tag = "Cách tính mua xe trả góp xe Vinfast Tại Quảng Ninh 2025";
+		$description_tag = 'Cách tính mua xe trả góp xe Vinfast vf3, vf5, vf6, vf7 năm 2025 tại quảng ninh. mua xe chỉ cần 100tr-300tr. liên hê:'.$hotline;
         break;
 
 	case "gioi-thieu-toyota-quang-ninh":
-        $title_tag = "GIỚI THIỆU VỀ TOYOTA QUẢNG NINH";
-		$description_tag = 'Toyota Quảng Ninh là đại lý chính thức của Toyota Việt Nam được ủy quyền duy nhất tại Quảng Ninh. Luôn luôn phục vụ khách hàng Tận tâm - chuyên nghiệp. liên hê:'.$hotline;
+        $title_tag = "GIỚI THIỆU VỀ VINFAST PHONG NGUYÊN BÃI CHÁY";
+		$description_tag = 'Vinfast Phong Nguyên Bãi Cháy là đại lý chính thức của Vinfast Việt Nam được ủy quyền duy nhất tại Quảng Ninh. Luôn luôn phục vụ khách hàng Tận tâm - chuyên nghiệp. liên hê:'.$hotline;
         break;
 	case "lien-he":
-        $title_tag = "LIÊN HỆ ĐẠI LÝ TOYOTA QUẢNG NINH";
-		$description_tag = 'Đại lý Toyota Tại Quảng Ninh. Bạn có thể liên hệ với chúng tôi để được tư vấn các vấn đề liên quan đến xe, sửa chữa, mua xe mới. liên hê:'.$hotline;
+        $title_tag = "LIÊN HỆ ĐẠI LÝ VINFAST PHONG NGUYÊN BÃI CHÁY";
+		$description_tag = 'Đại lý Vinfast Tại Quảng Ninh. Bạn có thể liên hệ với chúng tôi để được tư vấn các vấn đề liên quan đến xe, sửa chữa, mua xe mới. liên hê:'.$hotline;
         break;
 	case "bao-duong-dinh-ky":
-        $title_tag = "Bảo dưỡng định kỳ - Đại lý Toyota tại Quảng Ninh";
+        $title_tag = "Bảo dưỡng định kỳ - Đại lý Vinfast tại Quảng Ninh";
 		$description_tag = 'Thông tin bảo dưỡng định kỳ. Bảo dưỡng nhỏ (mỗi 5000km): 5.000 – 15.000 – 25.000 – 35.000 – 45.000 km. Bảo dưỡng Trung bình (mỗi 10000km): 10.000 – 30.000 – 50.000 – 70.000 – 90.000 km. liên hê:'.$hotline;
         break;
 	case "dich-vu-sua-chua":
-        $title_tag = "Dịch vụ sửa chữa - Đại lý Toyota tại Quảng Ninh";
+        $title_tag = "Dịch vụ sửa chữa - Đại lý Vinfast tại Quảng Ninh";
 		$description_tag = 'Thông tin dịch vụ sửa chữa. Bạn có thể liên hệ với chúng tôi để được tư vấn các vấn đề liên quan đến xe, sửa chữa, mua xe mới. liên hê:'.$hotline;
         break;
 	case "thu-tuc-dang-ky-va-dang-kiem-xe":
-        $title_tag = "Thủ tục đăng lý và đăng kiểm xe - Đại lý Toyota tại Quảng Ninh";
-		$description_tag = 'Với sự hỗ trợ tốt nhất từ Totota Quảng Ninh, khách hàng sử dụng xe Totota sẽ có trải nghiệm thú vị và tự tin khi tự thực hiện các công việc Đăng ký – Đăng kiểm xe (*). liên hê:'.$hotline;
+        $title_tag = "Thủ tục đăng lý và đăng kiểm xe - Đại lý Vinfast tại Quảng Ninh";
+		$description_tag = 'Với sự hỗ trợ tốt nhất từ Vinfast Quảng Ninh, khách hàng sử dụng xe Totota sẽ có trải nghiệm thú vị và tự tin khi tự thực hiện các công việc Đăng ký – Đăng kiểm xe (*). liên hê:'.$hotline;
         break;
 	case "chinh-sach-va-dieu-khoan":
-        $title_tag = "Chính sách và điều khoản - Đại lý Toyota tại Quảng Ninh";
-		$description_tag = 'Chính sách và điều khoản. Tên, logo, tên sản phẩm, tên đặc tính, và khẩu hiệu Toyota đều là thương hiệu thuộc sở hữu hoặc đăng ký của Công ty Ô tô Toyota Việt Nam và/hoặc Toyota Việt Nam. liên hê:'.$hotline;
+        $title_tag = "Chính sách và điều khoản - Đại lý Vinfast tại Quảng Ninh";
+		$description_tag = 'Chính sách và điều khoản. Tên, logo, tên sản phẩm, tên đặc tính, và khẩu hiệu Vinfast đều là thương hiệu thuộc sở hữu hoặc đăng ký của Công ty Ô tô Vinfast Việt Nam và/hoặc Vinfast Việt Nam. liên hê:'.$hotline;
         break;
 	case "bao-hiem-xe":
-        $title_tag = "BẢO HIỂM XE TOYOTA - Đại lý Toyota tại Quảng Ninh";
-		$description_tag = 'BẢO HIỂM XE TOYOTA. Khách hàng sẽ luôn an tâm và hài lòng với dịch vụ chăm sóc và bảo hiểm xe Toyota từ các đối tác Bảo hiểm uy tín hàng đầu tại Việt Nam. liên hê:'.$hotline;
+        $title_tag = "BẢO HIỂM XE VINFAST - Đại lý Vinfast tại Quảng Ninh";
+		$description_tag = 'BẢO HIỂM XE VINFAST. Khách hàng sẽ luôn an tâm và hài lòng với dịch vụ chăm sóc và bảo hiểm xe Vinfast từ các đối tác Bảo hiểm uy tín hàng đầu tại Việt Nam. liên hê:'.$hotline;
         break;
 	case "tim-duong-di":
-        $title_tag = "Tìm đường đi - Đại lý Toyota tại Quảng Ninh";
-		$description_tag = 'Tìm đường đi TOYOTA QUẢNG NINH Đại Lý Chính Thức Toyota Việt Nam Tại Quảng Ninh. liên hê:'.$hotline;
+        $title_tag = "Tìm đường đi - Đại lý Vinfast tại Quảng Ninh";
+		$description_tag = 'Tìm đường đi  VINFAST PHONG NGUYÊN BÃI CHÁY Đại Lý Chính Thức Vinfast Việt Nam Tại Quảng Ninh. liên hê:'.$hotline;
         break;
 	case "news":
-        $title_tag = "Tin tức & sự kiện, khuyến mại, tuyển dụng tại Đại lý Toyota Quảng Ninh";
-		$description_tag = 'Tin tức & sự kiện, khuyến mại, tuyển dụng tại Đại lý Toyota Quảng Ninh. liên hê:'.$hotline;
+        $title_tag = "Tin tức & sự kiện, khuyến mại, tuyển dụng tại Đại lý Vinfast Quảng Ninh";
+		$description_tag = 'Tin tức & sự kiện, khuyến mại, tuyển dụng tại Đại lý Vinfast Quảng Ninh. liên hê:'.$hotline;
         break;
 	case "news_detail":
         $title_tag = $news_title;
@@ -191,8 +171,8 @@ function cat_chuoi($string, $num){
 $cars = array
   (
   // stt, loai xe, ma xe, kieu xe, ma kieu xe, xuat xu, gia tien, bao hiem ds, vat chat, phi kiem dinh,
-  array(0,"yaris","YG","Yaris G (CVT)","NSP151L-AHXGKU","CBU",684000000,480700),
-  array(1,"yaris","YXH","Yaris HEV (CVT)","NSP151L-AHXRKU","CBU",765000000,480700),
+  array(0,"VF9 ","YG","VF 9 Eco","NSP151L-AHXGKU","CBU",1380000000,837400),
+  array(1,"VF9","YXH","VF 9 Plus","NSP151L-AHXRKU","CBU",1560000000,837400),
   array(2,"vios","VG","Vios G (CVT)","NSP151L-BEXGKU","CKD",545000000,480700),
   array(3,"VF7","VE","VF 7 PLUS (Trần kính toàn cảnh)","NSP151L-BEXGKU","CKD",1024000000,480700),
   array(4,"VF7","VK","VF 7 PLUS","NSP151L-BEMRKU","CKD",999000000,480700),
